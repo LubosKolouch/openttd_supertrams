@@ -1,0 +1,122 @@
+//RET "Parkwagens" 152-201
+
+/////////////////////////////////////
+//Purchase menu sprite and callback//
+/////////////////////////////////////
+
+spriteset(spriteset_purchase_real_ret_152, "gfx/ret_152.png") {
+	template_purchase(0, 60)
+}
+
+spriteset(spriteset_purchase_cc_ret_152, "gfx/cc_ret_152.png") {
+	template_purchase(0, 60)
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_purchase_sprite_ret_152, param_livery) {
+	1:	spriteset_purchase_cc_ret_152;
+    spriteset_purchase_real_ret_152;
+}
+
+///////////////////
+//Vehicle sprites//
+///////////////////
+
+spriteset(spriteset_real_ret_152_0, "gfx/ret_152.png") {
+	template_tram_20(0, 20)
+}
+
+spriteset(spriteset_cc_ret_152_0, "gfx/cc_ret_152.png") {
+	template_tram_20(0, 20)
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_livery_ret_152, param_livery) {
+	1:	spriteset_cc_ret_152_0;
+    spriteset_real_ret_152_0;
+}
+
+/////////////////////
+//vehicle callbacks//
+/////////////////////
+
+switch (FEAT_ROADVEHS, PARENT, switch_properties_ret_152_purchase_cost, ((date_of_last_service >= date(1931,1,1)))) {
+    1: return 59;
+	return 52;
+}
+
+switch (FEAT_ROADVEHS, PARENT, switch_properties_ret_152_running_cost, ((date_of_last_service >= date(1931,1,1)))) {
+    1: return 36;
+	return 34;
+}
+
+switch (FEAT_ROADVEHS, PARENT, switch_properties_ret_152_power, ((date_of_last_service >= date(1931,1,1)))) {
+    1: return 12; // *10 hp
+	return 6;
+}
+
+//////////////////////
+//vehicle properties//
+//////////////////////
+
+item (FEAT_ROADVEHS, tram_ret_152) {
+	property {
+		name:							string(STR_NAME_RET_152);
+		introduction_date:				date(1913,1,1);
+		model_life:						37;
+		retire_early:					0;
+		vehicle_life:					25;
+		loading_speed:					10;
+		cost_factor:					52;
+		running_cost_factor:			34;
+		speed:							40 km/h;
+		power: 							59 hp;
+		weight: 						12 ton;
+		cargo_capacity: 				26;
+		tractive_effort_coefficient: 	0.3;
+		air_drag_coefficient: 			0; //0=default
+		//sound_effect: 				; //not yet implemented
+		//visual_effect:					visual_effect(VISUAL_EFFECT_DEFAULT, 0); 
+		
+		reliability_decay:				20;
+		climates_available:				ALL_CLIMATES;
+		refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+		sprite_id:						SPRITE_ID_NEW_ROADVEH;
+		misc_flags:						bitmask(ROADVEH_FLAG_TRAM);
+		refit_cost: 					0;
+		running_cost_base:				RUNNING_COST_ROADVEH;
+	}
+	
+	graphics {
+		purchase: switch_purchase_sprite_ret_152;
+        additional_text: string(STR_DESC_RET_152);
+        length: return 5;
+        cost_factor: switch_properties_ret_152_purchase_cost;
+        running_cost_factor: switch_properties_ret_152_running_cost;
+        power: switch_properties_ret_152_power;
+		switch_livery_ret_152;
+	}
+}
+
+//only set 2CC flag if cc-parameter activated
+if (param_livery == 1) {
+	item (FEAT_ROADVEHS, tram_ret_152) {
+		property {
+			misc_flags:					bitmask(ROADVEH_FLAG_TRAM, ROADVEH_FLAG_2CC);
+		}
+	}
+}
+
+//cargo refit options
+if (param_refit == 1) {
+	item (FEAT_ROADVEHS, tram_ret_152) {
+		property {
+			refittable_cargo_classes:	bitmask(CC_PASSENGERS, CC_MAIL, CC_EXPRESS);
+		}
+	}
+}
+else if (param_refit == 2) {
+	item (FEAT_ROADVEHS, tram_ret_152) {
+		property {
+			refittable_cargo_classes:	ALL_NORMAL_CARGO_CLASSES;
+		}
+	}
+}

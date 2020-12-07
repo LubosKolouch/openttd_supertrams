@@ -1,0 +1,85 @@
+##grflangid 0x1f
+
+#Main grf title and description
+STR_GRF_NAME                    :{TITLE}
+STR_GRF_DESCRIPTION             :Nederlandse trams voor OpenTTD{}(c)2007,2008,2011 Rendall, FooBar en anderen.{}Licentie: GPLv2 of hoger.{}Bekijk leesme voor details.
+STR_GRF_URL             :http://dev.openttdcoop.org/projects/dutchtramset
+
+
+#Parameter related strings
+STR_PARAM_LIVERY_NAME   :Kleurstelling
+STR_PARAM_LIVERY_DESC   :Zet de kleurstelling van de voertuigen. Kies tussen werkelijke kleuren of bedrijfskleuren (2CC).
+STR_PARAM_LIVERY_REAL   :werkelijke kleuren
+STR_PARAM_LIVERY_CC             :bedrijfskleuren (2CC)
+
+STR_PARAM_REFIT_NAME    :Ombouwen
+STR_PARAM_REFIT_DESC    :Zet de mogelijkheden voor het ombouwen van de voertuigen. Kies voor alleen passagiers (standaard), goederentypen die in steden worden gebruikt (goederen klassen passagiers, post en expresse) of alle goederentypen.
+STR_PARAM_REFIT_PASS    :Alleen passagiers
+STR_PARAM_REFIT_TOWN    :Alleen stedelijke goederentypen
+STR_PARAM_REFIT_ALL             :Alle goederentypen
+
+
+#Vehicle names
+STR_NAME_GVB_491                :GVB 491-550 'Drieassers'
+STR_NAME_GVB_491_951    :GVB 491-550 + 951-1000 'Drieassers'
+STR_NAME_GVB_725                :GVB 725-779 (8G) 'Luchtwagens'
+STR_NAME_GVB_817                :GVB 817-841 (12G) 'Trapwagens'
+STR_NAME_GVB_2001               :GVB 2001-2151 'Combino'
+
+STR_NAME_HTM_21                 :HTM 21-168 'Fordjes'
+STR_NAME_HTM_821                :HTM 821-830
+STR_NAME_HTM_821_751    :HTM 821-830 + 751-781
+STR_NAME_HTM_201                :HTM 201-216 'Zwitsers'
+STR_NAME_HTM_201_780    :HTM 201-216 + 751-781 'Zwitsers'
+
+STR_NAME_HTM_1301               :HTM 1301-1340 'PCCs'
+STR_NAME_HTM_1301_2101  :HTM 1301-1340 + 2101-2130 'PCCs'
+STR_NAME_HTM_3001               :HTM 3001-3147 'GTL8'
+STR_NAME_HTM_4001               :HTM 4001-4072 'Citadis'
+
+STR_NAME_RET_127                :RET 127-151 'Drieramers'
+STR_NAME_RET_152                :RET 152-201 'Parkwagens'
+STR_NAME_RET_231                :RET 231-244 'Schindlers'
+STR_NAME_RET_351                :RET 351-386 'Düwags'
+STR_NAME_RET_2001               :RET 2001-2060 'Citadis'
+
+STR_NAME_NBM_50                 :NBM 50 + 3 aanhangers
+STR_NAME_GETA_70                :GETA 70-75
+STR_NAME_CONNEXXION_5001:Connexxion 5001
+
+STR_NAME_FUTURE_2001    :Toekomst 2001 'Flexity Outlook'
+STR_NAME_FUTURE_4001    :Toekomst 4001 'Rendallyne'
+STR_NAME_FUTURE_6001    :Toekomst 6001 'SlrTrm'
+
+
+#Vehicle descriptions
+STR_DESC_GVB_491                :Herkomst: {SILVER}Amsterdam{}{BLACK}Historische feiten: {SILVER}Gebouwd tussen 1948 en 1950 door Werkspoor, Amsterdam.
+STR_DESC_GVB_491_951    :Herkomst: {SILVER}Amsterdam{}{BLACK}Historische feiten: {SILVER}Gebouwd tussen 1948 en 1950 door Werkspoor, Amsterdam. Afgeleverd met bijpassende wagens 951-1000.
+STR_DESC_GVB_725                :Herkomst: {SILVER}Amsterdam{}{BLACK}Historische feiten: {SILVER}Gebouwd tussen 1974 en 1975 door Linke-Hofmann-Busch, Salzgitter, Duitsland. Genoemd naar de luchtcompressor voor de deurbediening in de middelste wagenbak.
+STR_DESC_GVB_817                :Herkomst: {SILVER}Amsterdam{}{BLACK}Historische feiten: {SILVER}Gebouwd tussen 1990 en 1991 door BN, Brugge, België. De middenbakken zijn gebouwd door Hainje, Heerenveen. Genoemd naar de trappen in het voertuig vanwege de lage middenbak.
+STR_DESC_GVB_2001               :Herkomst: {SILVER}Amsterdam{}{BLACK}Historische feiten: {SILVER}Gebouwd tussen 2002 en 2004 door Siemens.
+
+STR_DESC_HTM_21                 :Herkomst: {SILVER}Den Haag{}{BLACK}Historische feiten: {SILVER}Gebouwd tussen 1905 en 1907 door Werkspoor, Amsterdam. Kregen de bijnaam 'Fordjes' (ja, naar Ford's Model T) vanwege het grote aantal voertuigen. Compleet herbouwd in 1929-1931, voorzien van sterkere motoren en sleepbeugels vervangen door pantografen; sindsdien bekend als 'Ombouwers'.
+STR_DESC_HTM_821                :Herkomst: {SILVER}Den Haag{}{BLACK}Historische feiten: {SILVER}Gebouwd in 1929 door La Brugeoise, Brugge, België. Een uitbreiding van de serie 801-820.
+STR_DESC_HTM_821_751    :Herkomst: {SILVER}Den Haag{}{BLACK}Historische feiten: {SILVER}Gebouwd in 1929 door La Brugeoise, Brugge, België. Een uitbreiding van de serie 801-820. De bijwagen is van serie 751-781, ook gebouwd door La Brugeoise in 1929.
+STR_DESC_HTM_201                :Herkomst: {SILVER}Den Haag{}{BLACK}Historische feiten: {SILVER}Gebouwd in 1948 door Werkspoor, Utrecht. Genoemd naar de Zwitserse elektro-pneumatische stuurstroominstallatie.
+STR_DESC_HTM_201_780    :Herkomst: {SILVER}Den Haag{}{BLACK}Historische feiten: {SILVER}Gebouwd in 1948 door Werkspoor, Utrecht. Genoemd naar de Zwitserse elektro-pneumatische stuurstroominstallatie. De bijwagen is van serie 751-781, gebouwd door La Brugeoise in 1929 en aangepast om gebruikt te worden achter de 'Zwitsers'.
+
+STR_DESC_HTM_1301               :Herkomst: {SILVER}Den Haag{}{BLACK}Historische feiten: {SILVER}Gebouwd in 1971 door La Brugeoise et Nivelles, Brugge, België. Dit is de derde generatie PCC-cars van Den Haag.
+STR_DESC_HTM_1301_2101  :Herkomst: {SILVER}Den Haag{}{BLACK}Historische feiten: {SILVER}Gebouwd in 1971 door La Brugeoise et Nivelles, Brugge, België. Dit is de derde generatie PCC-cars van Den Haag. Geleverd met bijpassende gemotoriseerde bijwagens serie 2101-2130.
+STR_DESC_HTM_3001               :Herkomst: {SILVER}Den Haag{}{BLACK}Historische feiten: {SILVER}Gebouwd in 1981-1984 en 1992-1993 door La Brugeoise et Nivelles, Brugge, België.
+STR_DESC_HTM_4001               :Herkomst: {SILVER}Den Haag{}{BLACK}Historische feiten: {SILVER}Gebouwd in 2006 en 2011 door Alstom. Gebruikt op de RandstadRail lijnen van HTM.
+
+STR_DESC_RET_127                :Herkomst: {SILVER}Rotterdam{}{BLACK}Historische feiten: {SILVER}Gebouwd in 1908 door Allan of Rotterdam. Een uitbreiding van serie 21-126. Verbouwd in 1931, voorzien van sterkere motoren en sleepbeugels vervangen door pantografen.
+STR_DESC_RET_152                :Herkomst: {SILVER}Rotterdam{}{BLACK}Historische feiten: {SILVER}Gebouwd in 1913/14 (152-176) en 1921 (177-201) door Allan, Rotterdam. Verbouwd in 1931, voorzien van sterkere motoren en sleepbeugels vervangen door pantografen.
+STR_DESC_RET_231                :Herkomst: {SILVER}Rotterdam{}{BLACK}Historische feiten: {SILVER}Gebouwd in 1957 door Schindler, Pratteln, Switzerlen.
+STR_DESC_RET_351                :Herkomst: {SILVER}Rotterdam{}{BLACK}Historische feiten: {SILVER}Gebouwd in 1964 door (en genoemd naar) DUEWAG, Düsseldorf, Duitsland.
+STR_DESC_RET_2001               :Herkomst: {SILVER}Rotterdam{}{BLACK}Historische feiten: {SILVER}Gebouwd in 2003 door Alstom. In 2011 is de RET gaan rijden met de tweede bestelling voertuigen (series 2101-2153).
+
+STR_DESC_NBM_50                 :Herkomst: {SILVER}Utrecht-Zeist{}{BLACK}Historische feiten: {SILVER}De NBM 50 is een naar elektrische tractie omgebouwde stoomloc.
+STR_DESC_GETA_70                :Herkomst: {SILVER}Arnhem{}{BLACK}Historische feiten: {SILVER}Gebouwd in 1929 door Beynes, Haarlem. De tramdienst eindigde in 1944, toen het grootste deel van het materieel (inclusief de volledige serie 70-75) werd verwoest tijdens de Slag om Arnem.
+STR_DESC_CONNEXXION_5001:Herkomst: {SILVER}Utrecht{}{BLACK}Historische feiten: {SILVER}Gebouwd in 1983 door SIG, Neuhausen, Zwitserland. Tramdienst tot 1994 uitgevoerd door Westnederland, van 1994 tot 1999 door Midnet en sinds 1999 door Connexxion. De voertuigen zijn gerenoveerd in 2000-2001 en nogmaals in 2011-2012.
+
+STR_DESC_FUTURE_2001    :Toelichting: {SILVER}De Flexity Outlook van Bombardier wordt op dit moment niet gebruikt door trambedrijven in Nederland. Dit voertuig is opgenomen als toekomstige tram om wat afwisseling te bieden in de latere speljaren. Dit model is gebaseerd op de Eurotram uit Straatsburg.
+STR_DESC_FUTURE_4001    :Toelichting: {SILVER}Dit is een niet-bestaande toekomstige tram. Dit voertuig is opgenomen als toekomstige tram om wat afwisseling te bieden in de latere speljaren. De Rendallyne heeft een panoramisch bovendek in beide kopbakken.
+STR_DESC_FUTURE_6001    :Toelichting: {SILVER}Dit is een niet-bestaande toekomstige tram. Dit voertuig is opgenomen als toekomstige tram om wat afwisseling te bieden in de latere speljaren. De SlrTrm maakt geen gebruik van bovenleiding, maar is uitgerust met zonnepanelen op het dak.

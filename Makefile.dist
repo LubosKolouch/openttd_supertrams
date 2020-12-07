@@ -1,0 +1,16 @@
+################################################################
+# Definitions needed for tar releases
+# This part is automatically generated
+################################################################
+REPO_REVISION := 5740
+NEWGRF_VERSION := 5740
+REPO_HASH := 8c3daf18a0d9
+REPO_VERSION_STRING := 2.0.2
+REPO_TITLE := Kolcon Tram Set 2.0.2
+REPO_DATE := 
+REPO_BRANCH := 
+REPO_MODIFIED := 
+REPO_TAGS    := 2.0.2
+HG := :
+GIT := :
+PYTHON := :

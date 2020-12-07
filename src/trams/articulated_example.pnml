@@ -1,0 +1,282 @@
+//Example code
+
+/////////////////////////////////////
+//Purchase menu sprite and callback//
+/////////////////////////////////////
+
+spriteset(spriteset_purchase_real_example, "gfx/vehicletemplates.png") {
+	template_purchase(0, 340)
+}
+
+spriteset(spriteset_purchase_real_example, "gfx/vehicletemplates.png") {
+	template_purchase(0, 340)
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_purchase_sprite_example, param_livery) {
+	1:	spriteset_purchase_cc_example;
+    spriteset_purchase_real_example;
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_purchase_example, current_callback) {
+	VEH_CB_TEXT_PURCHASE_SCREEN : return string(STR_DESC_EXAMPLE);
+	switch_purchase_sprite_example;
+}
+
+///////////////////
+//Vehicle sprites//
+///////////////////
+
+spriteset(spriteset_real_example_0, "gfx/vehicletemplates.png") {
+	template_tram_32(0, 20)
+}
+spriteset(spriteset_real_example_1, "gfx/vehicletemplates.png") {
+	template_tram_28(0, 60)
+}
+spriteset(spriteset_real_example_2, "gfx/vehicletemplates.png") {
+	template_tram_24(0, 100)
+}
+spriteset(spriteset_real_example_3, "gfx/vehicletemplates.png") {
+	template_tram_20(0, 140)
+}
+spriteset(spriteset_real_example_4, "gfx/vehicletemplates.png") {
+	template_tram_16(0, 180)
+}
+spriteset(spriteset_real_example_5, "gfx/vehicletemplates.png") {
+	template_tram_12(0, 220)
+}
+spriteset(spriteset_real_example_6, "gfx/vehicletemplates.png") {
+	template_tram_8(0, 260)
+}
+spriteset(spriteset_real_example_7, "gfx/vehicletemplates.png") {
+	template_tram_4(0, 300)
+}
+
+spritegroup spritegroup_real_example_0 {
+	loading: spriteset_real_example_0;
+	loaded: spriteset_real_example_0;
+}
+spritegroup spritegroup_real_example_1 {
+	loading: spriteset_real_example_1;
+	loaded: spriteset_real_example_1;
+}
+spritegroup spritegroup_real_example_2 {
+	loading: spriteset_real_example_2;
+	loaded: spriteset_real_example_2;
+}
+spritegroup spritegroup_real_example_3 {
+	loading: spriteset_real_example_3;
+	loaded: spriteset_real_example_3;
+}
+spritegroup spritegroup_real_example_4 {
+	loading: spriteset_real_example_4;
+	loaded: spriteset_real_example_4;
+}
+spritegroup spritegroup_real_example_5 {
+	loading: spriteset_real_example_5;
+	loaded: spriteset_real_example_5;
+}
+spritegroup spritegroup_real_example_6 {
+	loading: spriteset_real_example_6;
+	loaded: spriteset_real_example_6;
+}
+spritegroup spritegroup_real_example_7 {
+	loading: spriteset_real_example_7;
+	loaded: spriteset_real_example_7;
+}
+
+spriteset(spriteset_cc_example_0, "gfx/vehicletemplates.png") {
+	template_tram_32(0, 20)
+}
+spriteset(spriteset_cc_example_1, "gfx/vehicletemplates.png") {
+	template_tram_28(0, 60)
+}
+spriteset(spriteset_cc_example_2, "gfx/vehicletemplates.png") {
+	template_tram_24(0, 100)
+}
+spriteset(spriteset_cc_example_3, "gfx/vehicletemplates.png") {
+	template_tram_20(0, 140)
+}
+spriteset(spriteset_cc_example_4, "gfx/vehicletemplates.png") {
+	template_tram_16(0, 180)
+}
+spriteset(spriteset_cc_example_5, "gfx/vehicletemplates.png") {
+	template_tram_12(0, 220)
+}
+spriteset(spriteset_cc_example_6, "gfx/vehicletemplates.png") {
+	template_tram_8(0, 260)
+}
+spriteset(spriteset_cc_example_7, "gfx/vehicletemplates.png") {
+	template_tram_4(0, 300)
+}
+
+spritegroup spritegroup_cc_example_0 {
+	loading: spriteset_cc_example_0;
+	loaded: spriteset_cc_example_0;
+}
+spritegroup spritegroup_cc_example_1 {
+	loading: spriteset_cc_example_1;
+	loaded: spriteset_cc_example_1;
+}
+spritegroup spritegroup_cc_example_2 {
+	loading: spriteset_cc_example_2;
+	loaded: spriteset_cc_example_2;
+}
+spritegroup spritegroup_cc_example_3 {
+	loading: spriteset_cc_example_3;
+	loaded: spriteset_cc_example_3;
+}
+spritegroup spritegroup_cc_example_4 {
+	loading: spriteset_cc_example_4;
+	loaded: spriteset_cc_example_4;
+}
+spritegroup spritegroup_cc_example_5 {
+	loading: spriteset_cc_example_5;
+	loaded: spriteset_cc_example_5;
+}
+spritegroup spritegroup_cc_example_6 {
+	loading: spriteset_cc_example_6;
+	loaded: spriteset_cc_example_6;
+}
+spritegroup spritegroup_cc_example_7 {
+	loading: spriteset_cc_example_7;
+	loaded: spriteset_cc_example_7;
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_spritegroup_real_example, position_in_consist ) {
+	1: spritegroup_real_example_1;
+	2: spritegroup_real_example_2;
+	3: spritegroup_real_example_3;
+	4: spritegroup_real_example_4;
+	5: spritegroup_real_example_5;
+	6: spritegroup_real_example_6;
+	7: spritegroup_real_example_7;
+    spritegroup_real_example_0;
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_spritegroup_cc_example, position_in_consist ) {
+	1: spritegroup_cc_example_1;
+	2: spritegroup_cc_example_2;
+	3: spritegroup_cc_example_3;
+	4: spritegroup_cc_example_4;
+	5: spritegroup_cc_example_5;
+	6: spritegroup_cc_example_6;
+	7: spritegroup_cc_example_7;
+    spritegroup_cc_example_0;
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_livery_example, param_livery) {
+	1:	switch_spritegroup_cc_example;
+    switch_spritegroup_real_example;
+}
+
+/////////////////////
+//vehicle callbacks//
+/////////////////////
+
+//set number of articulated parts
+switch (FEAT_ROADVEHS, SELF, switch_cbarticulated_example, extra_callback_info1) {
+	0..7: return tram_example; //use same vehicle for all parts
+	CB_FAILED;
+}
+
+//set length of each part
+switch (FEAT_ROADVEHS, SELF, switch_length_example, position_in_consist ) {
+	0: return 0;
+	1: return 1;
+	2: return 2;
+	3: return 3;
+	4: return 4;
+	5: return 5;
+	6: return 6;
+	7: return 7;
+	CB_FAILED;
+}
+
+//set capacity of each part
+switch (FEAT_ROADVEHS, SELF, switch_capacity_example, position_in_consist ) {
+	0: return 10;
+	1: return 20;
+	2: return 30;
+	3: return 40;
+	4: return 50;
+	5: return 60;
+	6: return 70;
+	7: return 80;
+	CB_FAILED;
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_properties_example, extra_callback_info1) {
+    PROP_ROADVEHS_CARGO_CAPACITY: switch_capacity_example;
+    CB_FAILED;
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_tram_example, current_callback) {
+	VEH_CB_ARTICULATED_PARTS: switch_cbarticulated_example;
+	VEH_CB_WAGON_LENGTH: switch_length_example;
+	VEH_CB_VEHICLE_PROPERTIES: switch_properties_example;
+	switch_livery_example;
+}
+
+//////////////////////
+//vehicle properties//
+//////////////////////
+
+item (FEAT_ROADVEHS, tram_example) {
+	property {
+		name:							string(STR_NAME_EXAMPLE);
+		introduction_date:				date(1920,1,1);
+		model_life:						50;
+		retire_early:					0;
+		vehicle_life:					35;
+		loading_speed:					5*2; //should be 5*number of doors
+		cost_factor:					110;
+		running_cost_factor:			104;
+		speed:							40 km/h;
+		power: 							59 hp;
+		weight: 						13 ton;
+		cargo_capacity: 				27;
+		tractive_effort_coefficient: 	1; //percentage of powered axles
+		air_drag_coefficient: 			0; //0=default
+		//sound_effect: 				; //not yet implemented
+		//visual_effect:					visual_effect(VISUAL_EFFECT_DEFAULT, 0); 
+		
+		callback_flags:					bitmask(VEH_CBF_WAGON_LENGTH, VEH_CBF_ARTICULATED_PARTS);
+		reliability_decay:				20;
+		climates_available:				ALL_CLIMATES;
+		refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+		sprite_id:						SPRITE_ID_NEW_ROADVEH;
+		misc_flags:						bitmask(ROADVEH_FLAG_TRAM);
+		refit_cost: 					0;
+		running_cost_base:				RUNNING_COST_ROADVEH;
+	}
+	
+	graphics {
+		purchase: switch_purchase_example;
+		switch_tram_example;
+	}
+}
+
+//only set 2CC flag if cc-parameter activated
+if (param_livery == 1) {
+	item (FEAT_ROADVEHS, tram_example) {
+		property {
+			misc_flags:					bitmask(ROADVEH_FLAG_TRAM, ROADVEH_FLAG_2CC);
+		}
+	}
+}
+
+//cargo refit options
+if (param_refit == 1) {
+	item (FEAT_ROADVEHS, tram_example) {
+		property {
+			refittable_cargo_classes:	bitmask(CC_PASSENGERS, CC_MAIL, CC_EXPRESS);
+		}
+	}
+}
+else if (param_refit == 2) {
+	item (FEAT_ROADVEHS, tram_example) {
+		property {
+			refittable_cargo_classes:	ALL_NORMAL_CARGO_CLASSES;
+		}
+	}
+}

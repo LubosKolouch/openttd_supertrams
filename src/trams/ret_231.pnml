@@ -1,0 +1,128 @@
+//RET 231-244
+
+/////////////////////////////////////
+//Purchase menu sprite and callback//
+/////////////////////////////////////
+
+spriteset(spriteset_purchase_real_ret_231, "gfx/ret_231.png") {
+	template_purchase(0, 100)
+}
+
+spriteset(spriteset_purchase_cc_ret_231, "gfx/cc_ret_231.png") {
+	template_purchase(0, 100)
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_purchase_sprite_ret_231, param_livery) {
+	1:	spriteset_purchase_cc_ret_231;
+    spriteset_purchase_real_ret_231;
+}
+
+///////////////////
+//Vehicle sprites//
+///////////////////
+
+spriteset(spriteset_real_ret_231, "gfx/ret_231.png") {
+	template_tram_24(0, 20)
+}
+spriteset(spriteset_real_ret_231_1, "gfx/ret_231.png") {
+	template_tram_24(0, 60)
+}
+
+spriteset(spriteset_cc_ret_231, "gfx/cc_ret_231.png") {
+	template_tram_24(0, 20)
+}
+spriteset(spriteset_cc_ret_231_1, "gfx/cc_ret_231.png") {
+	template_tram_24(0, 60)
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_spritegroup_real_ret_231, position_in_consist ) {
+	1: spriteset_real_ret_231_1;
+    spriteset_real_ret_231;
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_spritegroup_cc_ret_231, position_in_consist ) {
+	1: spriteset_cc_ret_231_1;
+    spriteset_cc_ret_231;
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_livery_ret_231, param_livery) {
+	1:	switch_spritegroup_cc_ret_231;
+    switch_spritegroup_real_ret_231;
+}
+
+/////////////////////
+//vehicle callbacks//
+/////////////////////
+
+//set number of articulated parts
+switch (FEAT_ROADVEHS, SELF, switch_cbarticulated_ret_231, extra_callback_info1) {
+	0..1: return tram_ret_231; //use same vehicle for all parts
+	CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+//////////////////////
+//vehicle properties//
+//////////////////////
+
+item (FEAT_ROADVEHS, tram_ret_231) {
+	property {
+		name:							string(STR_NAME_RET_231);
+		introduction_date:				date(1957,1,1);
+		model_life:						28;
+		retire_early:					0;
+		vehicle_life:					25;
+		loading_speed:					15;
+		cost_factor:					99;
+		running_cost_factor:			64;
+		speed:							62 km/h;
+		power: 							274 hp;
+		weight: 						20 ton;
+		cargo_capacity: 				54;
+		tractive_effort_coefficient: 	0.2;
+		air_drag_coefficient: 			0; //0=default
+		//sound_effect: 				; //not yet implemented
+		//visual_effect:					visual_effect(VISUAL_EFFECT_DEFAULT, 0); 
+		
+		reliability_decay:				20;
+		climates_available:				ALL_CLIMATES;
+		refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+		sprite_id:						SPRITE_ID_NEW_ROADVEH;
+		misc_flags:						bitmask(ROADVEH_FLAG_TRAM);
+		refit_cost: 					0;
+		running_cost_base:				RUNNING_COST_ROADVEH;
+	}
+	
+	graphics {
+		purchase: switch_purchase_sprite_ret_231;
+        additional_text: string(STR_DESC_RET_231);
+        length: return 6;
+        articulated_part: switch_cbarticulated_ret_231;
+        cargo_capacity: return 27;
+		switch_livery_ret_231;
+	}
+}
+
+//only set 2CC flag if cc-parameter activated
+if (param_livery == 1) {
+	item (FEAT_ROADVEHS, tram_ret_231) {
+		property {
+			misc_flags:					bitmask(ROADVEH_FLAG_TRAM, ROADVEH_FLAG_2CC);
+		}
+	}
+}
+
+//cargo refit options
+if (param_refit == 1) {
+	item (FEAT_ROADVEHS, tram_ret_231) {
+		property {
+			refittable_cargo_classes:	bitmask(CC_PASSENGERS, CC_MAIL, CC_EXPRESS);
+		}
+	}
+}
+else if (param_refit == 2) {
+	item (FEAT_ROADVEHS, tram_ret_231) {
+		property {
+			refittable_cargo_classes:	ALL_NORMAL_CARGO_CLASSES;
+		}
+	}
+}

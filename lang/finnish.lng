@@ -1,0 +1,86 @@
+##grflangid 0x35
+##plural 0
+
+#Main grf title and description
+STR_GRF_NAME                    :{TITLE}
+STR_GRF_DESCRIPTION             :Alankomaiden raitiovaunut OpenTTD:lle{}(c)2007,2008,2011 Rendall, FooBar ja muut.{}Lisenssi: GPLv2 tai korkeampi.{}Lisätietoja readme:ssa.
+STR_GRF_URL             :http://dev.openttdcoop.org/projects/dutchtramset
+
+
+#Parameter related strings
+STR_PARAM_LIVERY_NAME   :Väritys
+STR_PARAM_LIVERY_DESC   :Aseta ajoneuvojen värit. Valitse oikeiden värien (oletus) tai yhtiön tunnusvärien (2CC) väliltä.
+STR_PARAM_LIVERY_REAL   :Oikea väritys
+STR_PARAM_LIVERY_CC             :Yhtiön tunnusvärit (2CC)
+
+STR_PARAM_REFIT_NAME    :Sovitus
+STR_PARAM_REFIT_DESC    :Valitse joka raitiovaunulle saatavilla olevat sovitukset. Vaihtoehdot: vain matkustajat (oletus), kaupungissa käytettävät rahdit (matkustajat, posti ja pikarahti) tai kaikki rahti.
+STR_PARAM_REFIT_PASS    :Vain matkustajat
+STR_PARAM_REFIT_TOWN    :Vain kaupungissa käytettävät rahdit
+STR_PARAM_REFIT_ALL             :Kaikki rahti
+
+
+#Vehicle names
+STR_NAME_GVB_491                :GVB 491-550 'Kolmiakselit'
+STR_NAME_GVB_491_951    :GVB 491-550 + 951-1000 'Kolmiakselit'
+STR_NAME_GVB_725                :GVB 725-779 (8G) 'Ilmavaunut'
+STR_NAME_GVB_817                :GVB 817-841 (12G) 'Porrasvaunut'
+STR_NAME_GVB_2001               :GVB 2001-2151 'Combino'
+
+STR_NAME_HTM_21                 :HTM 21-168 'Pikku Fordit'
+STR_NAME_HTM_821                :HTM 821-830
+STR_NAME_HTM_821_751    :HTM 821-830 + 751-781
+STR_NAME_HTM_201                :HTM 201-216 'Sveitsiläinen'
+STR_NAME_HTM_201_780    :HTM 201-216 + 751-781 'Sveitsiläinen'
+
+STR_NAME_HTM_1301               :HTM 1301-1340 'PCC:t'
+STR_NAME_HTM_1301_2101  :HTM 1301-1340 + 2101-2130 'PCC:t'
+STR_NAME_HTM_3001               :HTM 3001-3147 'GTL8'
+STR_NAME_HTM_4001               :HTM 4001-4072 'Citadis'
+
+STR_NAME_RET_127                :RET 127-151 'Kolmi-ikkuna'
+STR_NAME_RET_152                :RET 152-201 'Puistovaunut'
+STR_NAME_RET_231                :RET 231-244 'Schindlers'
+STR_NAME_RET_351                :RET 351-386 'Düwags'
+STR_NAME_RET_2001               :RET 2001-2060 'Citadis'
+
+STR_NAME_NBM_50                 :NBM 50 + 3 vaunua
+STR_NAME_GETA_70                :GETA 70-75
+STR_NAME_CONNEXXION_5001:Connexxion 5001
+
+STR_NAME_FUTURE_2001    :Future 2001 'Flexity Outlook'
+STR_NAME_FUTURE_4001    :Future 4001 'Rendallyne'
+STR_NAME_FUTURE_6001    :Future 6001 'SlrTrm'
+
+
+#Vehicle descriptions
+STR_DESC_GVB_491                :Alkuperä: {SILVER}Amsterdam{}{BLACK}Historialliset faktat: {SILVER}Rakennettu Werkspoor:n tehtaalla Amsterdamissa, Alankomaissa vuosien 1948 ja 1950 välillä.
+STR_DESC_GVB_491_951    :Alkuperä: {SILVER}Amsterdam{}{BLACK}Historialliset faktat: {SILVER}Rakennettu Werkspoor:n tehtaalla Amsterdamissa, Alankomaissa vuosien 1948 ja 1950 välillä. Toimitettu yhteensopivien vaunujen kanssa, sarjanumerot 951-1000.
+STR_DESC_GVB_725                :Alkuperä: {SILVER}Amsterdam{}{BLACK}Historialliset faktat: {SILVER}Rakennettu Linke-Hofmann-Busch:n tehtaalla Salzgitterissä, Saksassa vuosien 1974 ja 1975 välillä. Nimetty keski-osiossa sijaitsevan, ovien käyttöön tarkoitetun ilmakompressorin mukaan,
+STR_DESC_GVB_817                :Alkuperä: {SILVER}Amsterdam{}{BLACK}Historialliset faktat: {SILVER}Rakennettu BN:n tehtaalla Bruggessa, Belgiassa vuosien 1990 ja 1991 välillä. Keski-osastot rakennettiin Hainje:n tehtaalla Heerenveenissä, Alankomaissa. Nimetty ajoneuvoissa niiden madallettujen keski-osioiden vuoksi olevien askelmien mukaan.
+STR_DESC_GVB_2001               :Alkuperä: {SILVER}Amsterdam{}{BLACK}Historialliset faktat: {SILVER}Rakennettu Siemens:n tehtaalla vuosien 2002 ja 2004 välillä.
+
+STR_DESC_HTM_21                 :Alkuperä: {SILVER}Haag{}{BLACK}Historialliset faktat: {SILVER}Rakennettu Wekspoor:n tehtaalla Amsterdamissa, Alankomaissa vuosien 1905 ja 1907 välillä. Koska nämä raitiovaunut olivat suhteellisen monilukuiset, ne saivan lempinimen 'Fordjes' Fordin T-malli auton mukaan. Jälleenrakennetty kokonaan 1929-1931, vaunuihin asennettiin voimakkaammat moottorit ja virroittimet korvattiin uudemmalla mallilla.
+STR_DESC_HTM_821                :Alkuperä: {SILVER}Haag{}{BLACK}Historialliset faktat: {SILVER}Rakennettu La Brugeoise:n tehtaalla Bruggessa, Belgiassa vuonna 1929. Sarjan 801-820 laajennus.
+STR_DESC_HTM_821_751    :Alkuperä: {SILVER}Haag{}{BLACK}Historialliset faktat: {SILVER}Rakennettu La Brugeoise:n tehtaalla Bruggessa, Belgiassa vuonna 1929. Sarjan 801-820 laajennus. Perävaunu on sarjasta 751-781, myös La Brugeoise:n vuonna 1929 rakentama.
+STR_DESC_HTM_201                :Alkuperä: {SILVER}Haag{}{BLACK}Historialliset faktat: {SILVER}Rakennettu Werkspoor:n tehtaalla Utrechtissa, Alankomaissa vuonna 1948. Nimetty sarjan Sveitsissä tehdyn sähkö-pneumaattisen järjestelmän mukaan.
+STR_DESC_HTM_201_780    :Alkuperä: {SILVER}Haag{}{BLACK}Historialliset faktat: {SILVER}Rakennettu Werkspoor:n tehtaalla Utrechtissa, Alankomaissa vuonna 1948. Nimetty sarjan Sveitsissä valmistetun sähkö-pneumaattisen järjestelmän mukaan. Perävaunu on sarjasta 751-781, La Brugeoise:n vuonna 1929 rakentama ja myöhemmin muokattu käyttöön 'Zwitsers'-sarjan kanssa.
+
+STR_DESC_HTM_1301               :Alkuperä: {SILVER}Haag{}{BLACK}Historialliset faktat: {SILVER}Rakennettu La Brugeoise et Nivelles:n tehtaalla Bruggessa, Belgiassa vuonna 1971. Haagin kolmas PCC-raitiovaunusukupolvi.
+STR_DESC_HTM_1301_2101  :Alkuperä: {SILVER}Haag{}{BLACK}Historialliset faktat: {SILVER}Rakennettu La Brugeoise et Nivelles:n tehtaalla Bruggessa, Belgiassa vuonna 1971. Haagin kolmas PCC-raitiovaunusukupolvi. Toimitettu yhteensopivien moottorivaunujen kanssa, sarjanumerot 2101-2130.
+STR_DESC_HTM_3001               :Alkuperä: {SILVER}Haag{}{BLACK}Historialliset faktat: {SILVER}Rakennetty La Brugeoise et Nivelles:n tehtaalla Bruggessa, Belgiassa vuosina 1981-1984 ja 1992-1993.
+STR_DESC_HTM_4001               :Alkuperä: {SILVER}Haag{}{BLACK}Historialliset faktat: {SILVER}Rakennettu Alstomin tehtaalla vuosina 2006 ja 2011. Käytössä HTM:n RandstadRail-linjoilla.
+
+STR_DESC_RET_127                :Alkuperä: {SILVER}Rotterdam{}{BLACK}Historialliset faktat: {SILVER}Rakennettu Allan:n tehtaalla Rotterdamissa, Alankomaissa vuonna 1908. Sarjan 21-126 laajennus. Uudistettu vuonna 1931, vaunuihin asennettiin voimakkaammat moottorit ja virroittimet korvattiin uudemmalla mallilla.
+STR_DESC_RET_152                :Alkuperä: {SILVER}Rotterdam{}{BLACK}Historialliset faktat: {SILVER}Rakennettu Allan:n tehtaalla Rotterdamissa, Alankomaissa vuosina 1913-1914 (152-176) ja 1921 (177-201). Uudistettu vuonna 1931, vaunuihin asennettiin voimakkaammat moottorit ja virroittimet korvattiin uudemmalla mallilla.
+STR_DESC_RET_231                :Alkuperä: {SILVER}Rotterdam{}{BLACK}Historialliset faktat: {SILVER}Rakennettu Schindler:n tehtaalla Prattelnissa, Sveitsissä vuonna 1957.
+STR_DESC_RET_351                :Origin: {SILVER}Rotterdam{}{BLACK}Historialliset faktat: {SILVER}Rakennettu (ja nimetty valmistajan mukaan) DUEWAG:n tehtaalla Düsseldorfissa, Saksassa vuonna 1964.
+STR_DESC_RET_2001               :Alkuperä: {SILVER}Rotterdam{}{BLACK}Historialliset faktat: {SILVER}Rakennettu Alstomin tehtaalla vuonna 2003. Vuonna 2011 RET alkoi laittaa ajoneuvotilauksen toisen erän palvelukseen: sarjanumerot 2101-2153.
+
+STR_DESC_NBM_50                 :Alkuperä: {SILVER}Utrecht-Zeist{}{BLACK}Historialliset faktat: {SILVER}NBM 50 on entinen höyrykone uudelleen sovitettuna sähkömoottorilla.
+STR_DESC_GETA_70                :Alkuperä: {SILVER}Arnhem{}{BLACK}Historialliset faktat: {SILVER}Rakennettu Beynes:n tehtaalla, Haarlemissa, Alankomaissa vuonna 1929. Raitiovaunupalvelut loppuivat Arnhemissa vuonna 1944, kun suurinosa ajoneuvoista (sisältäen koko 70-75 sarjan) tuhoutui taistelussa Arnhemista.
+STR_DESC_CONNEXXION_5001:Alkuperä: {SILVER}Utrecht{}{BLACK}Historialliset faktat: {SILVER}Rakennettu SIG:n tehtaalla Neuhausenissa, Sveitsissä vuonna 1983. Käyttäjänä Westnederland vuoteen 1994, Midnet vuodesta 1994 vuoteen 1999, ja Connexxion vuodesta 1999. Vaunut kunnostettiin 2000-2001 ja uudestaan 2011-2012.
+
+STR_DESC_FUTURE_2001    :Kuvaus: {SILVER}Bombardierin Flexity Outlook ei tällä hetkellä ole Alankomaiden raitiovaunuyhtiöiden käytössä. Se on sisällytetty valikoimaan, jotta myöhemmille aikakausille saadaan valinnanvaraa. Tämän mallin pohjana oli Strasbourgin Eurotram.
+STR_DESC_FUTURE_4001    :Kuvaus: {SILVER}Tämä on kuvitteellinen tulevaisuuden raitiovaunu. Se on sisällytetty valikoimaan, jotta myöhemmille aikakausille saadaan valinnanvaraa. Rendallynessä on laaja näkymä ympäristöön ylemmän kannen molemmissa päissä.
+STR_DESC_FUTURE_6001    :Kuvaus: {SILVER}Tämä on kuvitteellinen tulevaisuuden raitiovaunu. Se on sisällytetty valikoimaan, jotta myöhemmille aikakausille saadaan valinnanvaraa. SlrTrm ei kerää sähköä ajolangasta, vaan siinä on katolle asennetut aurinkopaneelit.

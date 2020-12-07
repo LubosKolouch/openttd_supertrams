@@ -1,0 +1,33 @@
+##grflangid 0x24
+##plural 2
+##case ba t
+
+#Main grf title and description
+
+
+#Parameter related strings
+
+STR_PARAM_REFIT_ALL             :Minden rakománytípus
+
+
+#Vehicle names
+
+STR_NAME_HTM_821                :HTM 821-830
+STR_NAME_HTM_201_780    :HTM 201-216 + 751-781 'Swiss'
+
+
+STR_NAME_RET_231                :RET 231-244 'Schindlers'
+
+
+STR_NAME_FUTURE_4001    :Future 4001 'Rendallyne'
+
+
+#Vehicle descriptions
+
+STR_DESC_HTM_821_751    :Származása: {SILVER}Hága{}{BLACK}Történelmi tények: {SILVER}1929-ben építette a La Brugeoise Bruges-ben, Belgiumban. Egy kiegésztő szériája a 801-820. A 751-781-es pótkocsi sorozat szintén a La Brugeoise építette 1929-ben
+
+
+STR_DESC_RET_2001               :Származása: {SILVER}Rotterdam{}{BLACK}Történelmi tények: {SILVER}2003-ban építette az Alstom. 2011-ben a a RET elkezdte a 2101-2513-es járművek üzembe állítását.
+
+STR_DESC_CONNEXXION_5001:Származása: {SILVER}Utrecht{}{BLACK}Történelmi tények: {SILVER}1983-ban építette a SIG a svájci Neuhausen-ben. 1994-ig állt használatban a Westnederland, 1994-től 1999-ig a Midnet, és 1999-től Connexxion tulajdonában. A járművek felújított változata egyszer megjelent 2000-2001-ben és még egyszer 2011-12-ben.
+

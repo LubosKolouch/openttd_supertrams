@@ -1,0 +1,171 @@
+//Future 2001 'Flexity Outlook'
+
+/////////////////////////////////////
+//Purchase menu sprite and callback//
+/////////////////////////////////////
+
+spriteset(spriteset_purchase_real_future_2001, "gfx/future_2001.png") {
+	template_purchase(0, 220)
+}
+
+spriteset(spriteset_purchase_cc_future_2001, "gfx/cc_future_2001.png") {
+	template_purchase(0, 220)
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_purchase_sprite_future_2001, param_livery) {	
+	1:	spriteset_purchase_cc_future_2001;
+	spriteset_purchase_real_future_2001;
+}
+
+///////////////////
+//Vehicle sprites//
+///////////////////
+
+spriteset(spriteset_real_future_2001, "gfx/future_2001.png") {
+	template_tram_16(0, 20)
+}
+spriteset(spriteset_real_future_2001_1, "gfx/future_2001.png") {
+	template_tram_12(0, 60)
+}
+spriteset(spriteset_real_future_2001_2, "gfx/future_2001.png") {
+	template_tram_8(0, 100)
+}
+spriteset(spriteset_real_future_2001_3, "gfx/future_2001.png") {
+	template_tram_12(0, 140)
+}
+spriteset(spriteset_real_future_2001_4, "gfx/future_2001.png") {
+	template_tram_12(0, 180)
+}
+
+spriteset(spriteset_cc_future_2001, "gfx/cc_future_2001.png") {
+	template_tram_16(0, 20)
+}
+spriteset(spriteset_cc_future_2001_1, "gfx/cc_future_2001.png") {
+	template_tram_12(0, 60)
+}
+spriteset(spriteset_cc_future_2001_2, "gfx/cc_future_2001.png") {
+	template_tram_8(0, 100)
+}
+spriteset(spriteset_cc_future_2001_3, "gfx/cc_future_2001.png") {
+	template_tram_12(0, 140)
+}
+spriteset(spriteset_cc_future_2001_4, "gfx/cc_future_2001.png") {
+	template_tram_12(0, 180)
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_spritegroup_real_future_2001, position_in_consist ) {
+	1: spriteset_real_future_2001_1;
+	2: spriteset_real_future_2001_3;
+	3: spriteset_real_future_2001_1;
+	4: spriteset_real_future_2001_2;
+	5: spriteset_real_future_2001_1;
+	6: spriteset_real_future_2001_2;
+	7: spriteset_real_future_2001_1;
+	8: spriteset_real_future_2001_4;
+	spriteset_real_future_2001;
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_spritegroup_cc_future_2001, position_in_consist ) {
+	1: spriteset_cc_future_2001_1;
+	2: spriteset_cc_future_2001_3;
+	3: spriteset_cc_future_2001_1;
+	4: spriteset_cc_future_2001_2;
+	5: spriteset_cc_future_2001_1;
+	6: spriteset_cc_future_2001_2;
+	7: spriteset_cc_future_2001_1;
+	8: spriteset_cc_future_2001_4;
+	spriteset_cc_future_2001;
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_livery_future_2001, param_livery) {
+	1:	switch_spritegroup_cc_future_2001;
+	switch_spritegroup_real_future_2001;
+}
+
+/////////////////////
+//vehicle callbacks//
+/////////////////////
+
+//set number of articulated parts
+switch (FEAT_ROADVEHS, SELF, switch_cbarticulated_future_2001, extra_callback_info1) {
+	0..50: return tram_future_2001; //use same vehicle for all parts
+	CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+//set length of each part
+switch (FEAT_ROADVEHS, SELF, switch_length_future_2001, position_in_consist ) {
+	return 1;
+}
+
+//set capacity of each part
+switch (FEAT_ROADVEHS, SELF, switch_capacity_future_2001, position_in_consist ) {
+	return 255;
+}
+
+//////////////////////
+//vehicle properties//
+//////////////////////
+
+item (FEAT_ROADVEHS, tram_future_2001) {
+	property {
+		name:							string(STR_NAME_FUTURE_2001);
+		introduction_date:				date(2012,1,1);
+		model_life:						VEHICLE_NEVER_EXPIRES;
+		retire_early:					0;
+		vehicle_life:					25;
+		loading_speed:					40;
+		cost_factor:					205;
+		running_cost_factor:			11;
+		speed:							511 km/h;
+		power: 							2535 hp;
+		weight: 						51 ton;
+		cargo_capacity: 				255;
+		tractive_effort_coefficient: 	0.3;
+		air_drag_coefficient: 			0; //0=default
+		//sound_effect: 				; //not yet implemented
+		//visual_effect:					visual_effect(VISUAL_EFFECT_DEFAULT, 0); 
+		
+		reliability_decay:				20;
+		climates_available:				ALL_CLIMATES;
+		refittable_cargo_classes:		ALL_NORMAL_CARGO_CLASSES;
+		sprite_id:						SPRITE_ID_NEW_ROADVEH;
+		misc_flags:						bitmask(ROADVEH_FLAG_TRAM);
+		refit_cost: 					0;
+		running_cost_base:				RUNNING_COST_ROADVEH;
+	}
+	
+	graphics {
+		purchase: switch_purchase_sprite_future_2001;
+        additional_text: string(STR_DESC_FUTURE_2001);
+        length: switch_length_future_2001;
+        articulated_part: switch_cbarticulated_future_2001;
+        cargo_capacity: switch_capacity_future_2001;
+        purchase_cargo_capacity: return 15;
+		switch_livery_future_2001;
+	}
+}
+
+//only set 2CC flag if cc-parameter activated
+if (param_livery == 1) {
+	item (FEAT_ROADVEHS, tram_future_2001) {
+		property {
+			misc_flags:					bitmask(ROADVEH_FLAG_TRAM, ROADVEH_FLAG_2CC);
+		}
+	}
+}
+
+//cargo refit options
+if (param_refit == 1) {
+	item (FEAT_ROADVEHS, tram_future_2001) {
+		property {
+			refittable_cargo_classes:	bitmask(CC_PASSENGERS, CC_MAIL, CC_EXPRESS);
+		}
+	}
+}
+else if (param_refit == 2) {
+	item (FEAT_ROADVEHS, tram_future_2001) {
+		property {
+			refittable_cargo_classes:	ALL_NORMAL_CARGO_CLASSES;
+		}
+	}
+}

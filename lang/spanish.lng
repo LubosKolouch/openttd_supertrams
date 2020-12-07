@@ -1,0 +1,87 @@
+##grflangid 0x04
+##plural 0
+##gender m f
+
+#Main grf title and description
+STR_GRF_NAME                    :{TITLE}
+STR_GRF_DESCRIPTION             :Tranvías de los Países Bajos para OpenTTD{}(c)2007,2008,2011 Rendall, FooBar y otros.{}Licencia: GPLv2 ó superior.{}Leer el Readme para más detalles.
+STR_GRF_URL             :http://dev.openttdcoop.org/projects/dutchtramset
+
+
+#Parameter related strings
+STR_PARAM_LIVERY_NAME   :Librea
+STR_PARAM_LIVERY_DESC   :Establezca las libreas de los vehículos. Elija entre sus libreas reales (valor por defecto) o los colores de la compañía (2CC).
+STR_PARAM_LIVERY_REAL   :Real
+STR_PARAM_LIVERY_CC             :Colores de la compañía (2CC)
+
+STR_PARAM_REFIT_NAME    :Reforma
+STR_PARAM_REFIT_DESC    :Selecciona las reformas disponibles para cada tranvía. Puedes elegir entre solo pasajeros (por defecto), carga usada en las ciudades (pasajeros, correo y carga express) o todos los tipos de carga.
+STR_PARAM_REFIT_PASS    :Solo pasajeros
+STR_PARAM_REFIT_TOWN    :Solo la carga usada en la ciudad (pasajeros, correo y carga express)
+STR_PARAM_REFIT_ALL             :Todos los tipos de carga
+
+
+#Vehicle names
+STR_NAME_GVB_491                :GVB 491-550 'Threeaxles'
+STR_NAME_GVB_491_951    :GVB 491-550 + 951-1000 'Threeaxles'
+STR_NAME_GVB_725                :GVB 725-779 (8G) 'Airwagons'
+STR_NAME_GVB_817                :GVB 817-841 (12G) 'Stairwagons'
+STR_NAME_GVB_2001               :GVB 2001-2151 'Combino'
+
+STR_NAME_HTM_21                 :HTM 21-168 'Little Fords'
+STR_NAME_HTM_821                :HTM 821-830
+STR_NAME_HTM_821_751    :HTM 821-830 + 751-781
+STR_NAME_HTM_201                :HTM 201-216 'Swiss'
+STR_NAME_HTM_201_780    :HTM 201-216 + 751-781 'Swiss'
+
+STR_NAME_HTM_1301               :HTM 1301-1340 'PCCs'
+STR_NAME_HTM_1301_2101  :HTM 1301-1340 + 2101-2130 'PCCs'
+STR_NAME_HTM_3001               :HTM 3001-3147 'GTL8'
+STR_NAME_HTM_4001               :HTM 4001-4072 'Citadis'
+
+STR_NAME_RET_127                :RET 127-151 'Threewindows'
+STR_NAME_RET_152                :RET 152-201 'Parkwagons'
+STR_NAME_RET_231                :RET 231-244 'Schindlers'
+STR_NAME_RET_351                :RET 351-386 'Düwags'
+STR_NAME_RET_2001               :RET 2001-2060 'Citadis'
+
+STR_NAME_NBM_50                 :NBM 50 + 3 remolques
+STR_NAME_GETA_70                :GETA 70-75
+STR_NAME_CONNEXXION_5001:Connexxion 5001
+
+STR_NAME_FUTURE_2001    :Future 2001 'Flexity Outlook'
+STR_NAME_FUTURE_4001    :Future 4001 'Rendallyne'
+STR_NAME_FUTURE_6001    :Future 6001 'SlrTrm'
+
+
+#Vehicle descriptions
+STR_DESC_GVB_491                :Origen: {SILVER}Ámsterdam{}{BLACK}Hechos históricos: {SILVER}Construido entre 1948 y 1950 por Werkspoor para el transporte público en Ámsterdam.
+STR_DESC_GVB_491_951    :Origen: {SILVER}Ámsterdam{}{BLACK}Hechos históricos: {SILVER}Construido entre 1948 y 1950 por Werkspoor de Ámsterdam, Holanda. Se entrega con sus remolques parejos 951-1000.
+STR_DESC_GVB_725                :Origen: {SILVER}Ámsterdam}{BLACK}Hechos históricos: {SILVER}Construido entre 1974 y 1975 por Linke-Hofmann-Busch de Salzgitter, Alemania. Apodado el 'Airwagons' o 'Vagones de aire' por el compresor usado en sus compartimentos para el funcionamiento de las puertas.
+STR_DESC_GVB_817                :Origen: {SILVER}Ámsterdam{}{BLACK}Hechos históricos: {SILVER}Construido entre 1990 y 1991 por BN de Brujas, Bélgica. Los compartimentos centrales fueron construidos por Hainje en Heerenveen. Apodado “Stairwagons” o “Vagones de escalera”  al comprobar, tras andar por el mismo, la baja altura de sus compartimentos centrales así como el modo de acceder a los mismos.
+STR_DESC_GVB_2001               :Origen: {SILVER}Ámsterdam{}{BLACK}Hechos históricos: {SILVER}Construido entre 2002 y 2004 por Siemens.
+
+STR_DESC_HTM_21                 :Origen: {SILVER}La Haya{}{BLACK}Hechos históricos: {SILVER}Construido entre 1905 y 1907 por Werkspoor de Ámsterdam. Como eran particularmente numerosos fueron apodados 'Fordjes' en referencia al popularísimo Ford T (producción en cadena, distribución global, todo un hito en la historia). Fue completamente reconstruido en 1929-1931, equipando con ello motores más potentes así como reemplazando sus colectores por pantógrafos.
+STR_DESC_HTM_821                :Origen: {SILVER}La Haya{}{BLACK}Hechos históricos: {SILVER}Construido en 1929 por La Brugeoise de Brujas, Bélgica. Es una extensión de la serie 801-820.
+STR_DESC_HTM_821_751    :Origen: {SILVER}La Haya{}{BLACK}Hechos históricos: {SILVER}Construido en 1929 por La Brugeoise en Brujas, Bélgica. Es una extensión de la serie 801-820. El remolque es de la serie 751-781, también construidos por La Brugeoise en 1929.
+STR_DESC_HTM_201                :Origen: {SILVER}La Haya{}{BLACK}Hechos históricos: {SILVER}Construido en 1948 por Werkspoor de Utrecht, Holanda. Apodado 'Swiss' después de la fabricación de su sistema electro-neumático en Suiza.
+STR_DESC_HTM_201_780    :Origen: {SILVER}La Haya{}{BLACK}Hechos históricos: {SILVER}Construido en 1948 por Werkspoor de Utrecht, Holanda. Apodado 'Swiss' después de la fabricación de su sistema electro-neumático en Suiza. El remolque es de la serie 751-781, construido por La Brugeoise en 1929 y modificado para ser usado con los 'Zwitsers'.
+
+STR_DESC_HTM_1301               :Origen: {SILVER}La haya{}{BLACK}Hechos históricos: {SILVER}Construido en 1971 por La Brugeoise et Nivelles de Brujas, Bélgica. Esta es la tercera generación de los coches PCC de La Haya.
+STR_DESC_HTM_1301_2101  :Origen: {SILVER}La haya{}{BLACK}Hechos históricos: {SILVER}Construido en 1971 por La Brugeoise et Nivelles de Brujas, Bélgica. Esta es la tercera generación de los coches PCC de La Haya. Se entrega con sus correspondientes remolques motorizados 2101-2130.
+STR_DESC_HTM_3001               :Origen: {SILVER}La Haya{}{BLACK}Hechos históricos: {SILVER}Construido en 1981-1984 y en 1992-1993 por La Brugeoise et Nivelles de Brujas, Bélgica. Del 2010 al 2012 los vehículos supervivientes de la serie 3001-3100 fueron ligeramente renovados; Con ello ganaron, entre otras cosas, mayor seguridad y unos costes de mantenimiento menores.
+STR_DESC_HTM_4001               :Origen: {SILVER}La Haya{}{BLACK}Hechos históricos: {SILVER}Construido del 2006 al 2011 por Alstom. Usado en las líneas RandstadRail (red que conecta las ciudades de La Haya, Zoetermeer y Rotterdam) operadas por HTM.
+
+STR_DESC_RET_127                :Origen: {SILVER}Róterdam{}{BLACK}Hechos históricos: {SILVER}Construido en 1908 por Allan de Róterdam. Es una extensión de la serie 21-126. Fue actualizado en 1931, equipando con ello motores más potentes así como reemplazando sus colectores por pantógrafos.
+STR_DESC_RET_152                :Origen: {SILVER}Róterdam{}{BLACK}Hechos históricos: {SILVER}Construido en 1913/14 (152-176) y en 1921 (177-201) por Allan de Róterdam. Fue actualizado en 1931, equipando con ello motores más potentes así como reemplazando sus colectores por pantógrafos.
+STR_DESC_RET_231                :Origen: {SILVER}Róterdam{}{BLACK}Hechos históricos: {SILVER}Construido en 1957 por Schindler en Pratteln, Suiza.
+STR_DESC_RET_351                :Origen: {SILVER}Róterdam{}{BLACK}Hechos históricos: {SILVER}Construido en 1964 por (y renombrado a posteriori) DUEWAG en Düsseldorf, Alemania.
+STR_DESC_RET_2001               :Origen: {SILVER}Róterdam{}{BLACK}Hechos históricos: {SILVER}Construido en 2003 por Alstom. En 2011 se comenzó a poner un segundo tramo de estos vehículos en servicio: La serie 2101-2153
+
+STR_DESC_NBM_50                 :Origen: {SILVER}Utrecht-Zeist{}{BLACK}Hechos históricos: {SILVER}El NBM 50 lleva un motor de vapor reconvertido a motor eléctrico.
+STR_DESC_GETA_70                :Origen: {SILVER}Arnhem{}{BLACK}Hechos históricos: {SILVER}Construido en 1929 por Beynes en Haarlem. Los servicios de tranvía en Arnhem terminaron en 1944, súbitamente, cuando la mayor parte del material rodante (incluida la serie completa 70-75) fue destruido durante La Batalla de Arnhem (Operación Market-Garden).
+STR_DESC_CONNEXXION_5001:Origen: {SILVER}Utrecht{}{BLACK}Hechos históricos: {SILVER}Construido en 1983 por SIG (Neuhausen; Cantón de Schaffhausen, Suiza). Operado hasta 1994 por Westnederland, entre 1994 y 1999 por Midnet y por Connexxion desde 1999. Los vehículos fueron reformados en 2000-2001 y de nuevo en 2011-2012.
+
+STR_DESC_FUTURE_2001    :Descripción: {SILVER}El Flexity Outlook de Bombardier no es usado actualmente por ninguna compañía ferroviaria de los Países Bajos. Este tranvía está incluido en el set para añadir un poco de variedad en los años futuros del juego, pues es un tranvía inventado. Este modelo en concreto se basa en el Eurotram de Estrasburgo.
+STR_DESC_FUTURE_4001    :Descripción: {SILVER}Este es un tranvía futuro inventado. Este tranvía está incluido en el set para añadir un poco de variedad en los años futuros del juego. El Rendallyne tiene techo solar panorámico en ambos extremos.
+STR_DESC_FUTURE_6001    :Descripción: {SILVER}Este es un tranvía futuro inventado. Este tranvía está incluido en el set para añadir un poco de variedad en los años futuros del juego. El SlrTrm no saca electricidad de los cables aéreos, sino que está equipado con paneles solares en el techo y de allí proviene el grueso de su alimentación.

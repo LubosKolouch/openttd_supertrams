@@ -1,0 +1,85 @@
+##grflangid 0x02
+
+#Main grf title and description
+STR_GRF_NAME                    :{TITLE}
+STR_GRF_DESCRIPTION             :Niederländische Straßenbahnen{}(c)2007,2008,2011 Rendall, FooBar und andere.{}Lizenz: GPLv2 oder höher.{}Siehe readme für Details.
+STR_GRF_URL             :http://dev.openttdcoop.org/projects/dutchtramset
+
+
+#Parameter related strings
+STR_PARAM_LIVERY_NAME   :Anstrich
+STR_PARAM_LIVERY_DESC   :Anstrich der Fahrzeuge auswählen. Wähle zwischen realer Farbgebung (standard) oder Firmenfarben (2CC).
+STR_PARAM_LIVERY_REAL   :Vorbildgetreu
+STR_PARAM_LIVERY_CC             :Firmenfarben (2CC)
+
+STR_PARAM_REFIT_NAME    :Umrüsten
+STR_PARAM_REFIT_DESC    :Mögliche Umrüstoptionen auswählen. Wähle zwischen ausschließlich Passagieren (standard), städtischen Frachtarten (Passagiere, Post und Expressgüter) oder allen Frachtarten.
+STR_PARAM_REFIT_PASS    :Nur Passagiere
+STR_PARAM_REFIT_TOWN    :Nur städtische Frachtarten
+STR_PARAM_REFIT_ALL             :Alle Frachtarten
+
+
+#Vehicle names
+STR_NAME_GVB_491                :GVB 491-550 'Dreiachser'
+STR_NAME_GVB_491_951    :GVB 491-550 + 951-1000 'Dreiachser'
+STR_NAME_GVB_725                :GVB 725-779 (8G) 'Luftwaggons'
+STR_NAME_GVB_817                :GVB 817-841 (12G) 'Stufenwaggon'
+STR_NAME_GVB_2001               :GVB 2001-2151 'Combino'
+
+STR_NAME_HTM_21                 :HTM 21-168 'Kleine Fords'
+STR_NAME_HTM_821                :HTM 821-830
+STR_NAME_HTM_821_751    :HTM 821-830 + 751-781
+STR_NAME_HTM_201                :HTM 201-216 'Schweiz'
+STR_NAME_HTM_201_780    :HTM 201-216 + 751-781 'Schweiz'
+
+STR_NAME_HTM_1301               :HTM 1301-1340 'PCCs'
+STR_NAME_HTM_1301_2101  :HTM 1301-1340 + 2101-2130 'PCCs'
+STR_NAME_HTM_3001               :HTM 3001-3147 'GTL8'
+STR_NAME_HTM_4001               :HTM 4001-4072 'Citadis'
+
+STR_NAME_RET_127                :RET 127-151 'Dreifenster'
+STR_NAME_RET_152                :RET 152-201 'Parkwaggons'
+STR_NAME_RET_231                :RET 231-244 'Schindlers'
+STR_NAME_RET_351                :RET 351-386 'Düwag'
+STR_NAME_RET_2001               :RET 2001-2060 'Citadis'
+
+STR_NAME_NBM_50                 :NBM 50 + 3 Wagen
+STR_NAME_GETA_70                :GETA 70-75
+STR_NAME_CONNEXXION_5001:Connexxion 5001
+
+STR_NAME_FUTURE_2001    :zukünftige 2001 'Flexity Outlook'
+STR_NAME_FUTURE_4001    :zukünftige 4001 'Rendallyne'
+STR_NAME_FUTURE_6001    :zukünftige 6001 'SlrTrm'
+
+
+#Vehicle descriptions
+STR_DESC_GVB_491                :Herkunft: {SILVER}Amsterdam{}{BLACK}Historie: {SILVER}Gebaut von 1948 bis 1950 von Werkspoor in Amsterdam.
+STR_DESC_GVB_491_951    :Herkunft: {SILVER}Amsterdam{}{BLACK}Historie: {SILVER}Gebaut von 1948 bis 1950 von Werkspoor in Amsterdam. Ausgeliefert mit den passenden Wagen 951-1000.
+STR_DESC_GVB_725                :Herkunft: {SILVER}Amsterdam{}{BLACK}Historie: {SILVER}Gebaut von 1974 bis 1975 von Linke-Hofmann-Busch in Salzgitter, Deutschland. Benannt nach dem Luftkompressor im mittleren Abteil, welcher für den Betrieb der Türen benötigt wird.
+STR_DESC_GVB_817                :Herkunft: {SILVER}Amsterdam{}{BLACK}Historie: {SILVER}Gebaut von 1990 bis 1991 von BN in Brügge, Belgien. Die mittleren Abteile wurden von Hainje in Heerenveen gebaut. Benannt nach den Stufen im Fahrzeug wegen des niedrigeren mittleren Abteils.
+STR_DESC_GVB_2001               :Herkunft: {SILVER}Amsterdam{}{BLACK}Historie: {SILVER}Gebaut von 2002 bis 2004 von Siemens.
+
+STR_DESC_HTM_21                 :Herkunft: {SILVER}Den Haag{}{BLACK}Historie: {SILVER}Gebaut von 1905 bis 1907 von Werkspoor in Amsterdam. Wegen ihrer großen Stückzahlen wurden ihnen der Kosename 'Fordjes' gegeben, benannt nach Fords Model T. Komplett überarbeitet von 1929 - 1931 und ausgestattet mit stärkeren Antrieb und erneuerten Stromabnehmern.
+STR_DESC_HTM_821                :Herkunft: {SILVER}Den Haag{}{BLACK}Historie: {SILVER}Gebaut im Jahr 1929 von La Brugeoisein Brügge, Belgien. Eine Erweiterung der Baureihen 801-820.
+STR_DESC_HTM_821_751    :Herkunft: {SILVER}Den Haag{}{BLACK}Historie: {SILVER}Gebaut im Jahr 1929 von La Brugeoisein Brügge, Belgien. Eine Erweiterung der Baureihen 801-820. Der Anhänger stammt von der Baureihe 751-781, auch gebaut von La Brugeoisein im Jahr 1929.
+STR_DESC_HTM_201                :Herkunft: {SILVER}Den Haag{}{BLACK}Historie: {SILVER}Gebaut im Jahr 1948 von Werkspoor in Utrecht. Benannt nach dem schweizerischen elektro-pneumatischen System.
+STR_DESC_HTM_201_780    :Herkunft: {SILVER}Den Haag{}{BLACK}Historie: {SILVER}Gebaut im Jahr 1948 von Werkspoor in Utrecht. Benannt nach dem schweizerischen elektro-pneumatischen System. Der Anhänger stammt von der Baureihe 751-781, gebaut von La Brugeoisein im Jahr 1929 und modifziert, um mit dem 'Zwitsers' genutzt werden zu können.
+
+STR_DESC_HTM_1301               :Herkunft: {SILVER}Den Haag{}{BLACK}Historie: {SILVER}Gebaut im Jahr 1971 von La Brugeoiseet Nivelles in Brügge, Belgien. Dies ist die dritte Generation von PCC-Wagen aus Den Haag.
+STR_DESC_HTM_1301_2101  :Herkunft: {SILVER}Den Haag{}{BLACK}Historie: {SILVER}Gebaut im Jahr 1971 von La Brugeoiseet Nivelles in Brügge, Belgien. Dies ist die dritte Generation von PCC-Wagen aus Den Haag. Ausgeliefert mit passenden selbstangetriebenen Wagen der Baureihen 2101-2130.
+STR_DESC_HTM_3001               :Herkunft: {SILVER}Den Haag{}{BLACK}Historie: {SILVER}Gebaut im Jahr 1981-1984 and 1992-1993 von La Brugeoiseet Nivelles in Brügge, Belgien.
+STR_DESC_HTM_4001               :Herkunft: {SILVER}Den Haag{}{BLACK}Historie: {SILVER}Gebaut im Jahr 2006 and 2011 von Alstom. Used on the RandstadRail lines operated von HTM.
+
+STR_DESC_RET_127                :Herkunft: {SILVER}Rotterdam{}{BLACK}Historie: {SILVER}Gebaut im Jahr 1908 von Allan aus Rotterdam. Eine Erweiterung der Baureihen 21-126. Überholt in 1931 und ausgerüstet mit stärkerem Antrieb und neuen Stromabnehmern.
+STR_DESC_RET_152                :Herkunft: {SILVER}Rotterdam{}{BLACK}Historie: {SILVER}Gebaut in den Jahren 1913/14 (152-176) und 1921 (177-201) von Allan aus Rotterdam. Überholt in 1931 und ausgerüstet mit stärkerem Antrieb und neuen Stromabnehmern.
+STR_DESC_RET_231                :Herkunft: {SILVER}Rotterdam{}{BLACK}Historie: {SILVER}Gebaut im Jahr 1957 von Schindler aus Pratteln, Schweiz.
+STR_DESC_RET_351                :Herkunft: {SILVER}Rotterdam{}{BLACK}Historie: {SILVER}Gebaut im Jahr 1964 von (und benannt nach) DUEWAG aus Düsseldorf, Deutschland.
+STR_DESC_RET_2001               :Herkunft: {SILVER}Rotterdam{}{BLACK}Historie: {SILVER}Gebaut im Jahr 2003 von Alstom. Im Jahr 2011 startete RET den Betrieb mit der zweiten Bestellung (Baureihen 2101-2153).
+
+STR_DESC_NBM_50                 :Herkunft: {SILVER}Utrecht-Zeist{}{BLACK}Historie: {SILVER}Die NBM 50 ist eine Damplok, die auf Elektrobetrieb umgerüstet wurde.
+STR_DESC_GETA_70                :Herkunft: {SILVER}Arnhem{}{BLACK}Historie: {SILVER}Gebaut im Jahr 1929 von Beynes in Haarlem. Der Straßenbahnbetrieb in Arnhem endete in 1944 als die meisten Fahrzeuge (inklusive der kompletten Baureihe 70-75) in der Schlacht um Arnhem zerstört wurden.
+STR_DESC_CONNEXXION_5001:Herkunft: {SILVER}Utrecht{}{BLACK}Historie: {SILVER}Gebaut im Jahr 1983 von SIG in Neuhausen, Schweiz. In Betrieb bis 1994 von Westnederland, von 1994 bis 1999 von Midnet und von Connexxion seit 1999. Die Fahrzeuge wurden generalüberholt zwischen 2000-2001 und nochmals 2011-2012.
+
+STR_DESC_FUTURE_2001    :Beschreibung: {SILVER}Die Flexity Outlook von Bombardier wird momentan nicht von niederländischen Straßenbahngesellschaften genutzt. Sie ist jedoch hier eingefügt, um auch in späteren Spieljahren eine gewisse Auswahl zur Verfügung stellen zu können. Dieses Modell basiert auf der Eurotram aus Strasburg.
+STR_DESC_FUTURE_4001    :Beschreibung: {SILVER}Dies ist eine fiktionale, zukünftige Straßenbahn, um auch in späteren Spieljahren eine gewisse Auswahl zur Verfügung stellen zu können. Die Rendallyne hat an beiden Enden ein Panorama-Oberdeck.
+STR_DESC_FUTURE_6001    :Beschreibung: {SILVER}Dies ist eine fiktionale, zukünftige Straßenbahn, um auch in späteren Spieljahren eine gewisse Auswahl zur Verfügung stellen zu können. Die SlrTrm bezieht ihren Strom nicht durch Oberleitungen. Stattdessen ist sie mit Solarpanelen auf dem Dach ausgestattet.

@@ -1,0 +1,88 @@
+##grflangid 0x38
+##plural 6
+##gender male female middle
+##case aku dat gen ins lok nom vok
+
+#Main grf title and description
+STR_GRF_NAME                    :{TITLE}
+STR_GRF_DESCRIPTION             :Nizozemski tramvaji za OpenTTD{}(c)2007,2008,2011 Rendall, FooBar i drugi.{}Licenca: GPLv2 ili viša.{}Pogledajte readme za detalje.
+STR_GRF_URL             :http://dev.openttdcoop.org/projects/dutchtramset
+
+
+#Parameter related strings
+STR_PARAM_LIVERY_NAME   :Livreja
+STR_PARAM_LIVERY_DESC   :Postavi livreje vozila. Odaberite između stvarnih livreja (osnovna postavka) ili livreja u bojama kompanije (2CC).
+STR_PARAM_LIVERY_REAL   :Stvarne
+STR_PARAM_LIVERY_CC             :Boje kompanije (2CC)
+
+STR_PARAM_REFIT_NAME    :Prilagodbe vozila
+STR_PARAM_REFIT_DESC    :Odaberi prilagodbe dostupne za svaki pojedini tramvaj. Odaberi između samo za putnike (osnovna postavka), tipove tereta koji se koriste u gradovima (putnici, pošta i ekspresni tereti) ili svih tereta.
+STR_PARAM_REFIT_PASS    :Samo putnici
+STR_PARAM_REFIT_TOWN    :Samo gradski tipovi tereta
+STR_PARAM_REFIT_ALL             :Sve vrste tereta
+
+
+#Vehicle names
+STR_NAME_GVB_491                :GVB 491-550 'Threeaxles'
+STR_NAME_GVB_491_951    :GVB 491-550 + 951-1000 'Threeaxles'
+STR_NAME_GVB_725                :GVB 725-779 (8G) 'Airwagons'
+STR_NAME_GVB_817                :GVB 817-841 (12G) 'Stairwagons'
+STR_NAME_GVB_2001               :GVB 2001-2151 'Combino'
+
+STR_NAME_HTM_21                 :HTM 21-168 'Little Fords'
+STR_NAME_HTM_821                :HTM 821-830
+STR_NAME_HTM_821_751    :HTM 821-830 + 751-781
+STR_NAME_HTM_201                :HTM 201-216 'Swiss'
+STR_NAME_HTM_201_780    :HTM 201-216 + 751-781 'Swiss'
+
+STR_NAME_HTM_1301               :HTM 1301-1340 'PCCs'
+STR_NAME_HTM_1301_2101  :HTM 1301-1340 + 2101-2130 'PCCs'
+STR_NAME_HTM_3001               :HTM 3001-3147 'GTL8'
+STR_NAME_HTM_4001               :HTM 4001-4072 'Citadis'
+
+STR_NAME_RET_127                :RET 127-151 'Threewindows'
+STR_NAME_RET_152                :RET 152-201 'Parkwagons'
+STR_NAME_RET_231                :RET 231-244 'Schindlers'
+STR_NAME_RET_351                :RET 351-386 'Düwags'
+STR_NAME_RET_2001               :RET 2001-2060 'Citadis'
+
+STR_NAME_NBM_50                 :NBM 50 + 3 prikolice
+STR_NAME_GETA_70                :GETA 70-75
+STR_NAME_CONNEXXION_5001:Connexxion 5001
+
+STR_NAME_FUTURE_2001    :Future 2001 'Flexity Outlook'
+STR_NAME_FUTURE_4001    :Future 4001 'Rendallyne'
+STR_NAME_FUTURE_6001    :Future 6001 'SlrTrm'
+
+
+#Vehicle descriptions
+STR_DESC_GVB_491                :Podrijetlo: {SILVER}Amsterdam{}{BLACK}Povijesne činjenice: {SILVER}Napravljen između 1948 i 1950 u Werkspooru iz Amsterdama.
+STR_DESC_GVB_491_951    :Podrijetlo: {SILVER}Amsterdam{}{BLACK}Povijesne činjenice: {SILVER}Napravljen između 1948 i 1950 u Werkspooru iz Amsterdama. Dostavljeni su sa odgovarajućim prikolicama br. 951-1000.
+STR_DESC_GVB_725                :Podrijetlo: {SILVER}Amsterdam{}{BLACK}Povijesne činjenice: {SILVER}Napravljen između 1974 i 1975 u Linke-Hofmann-Busch iz Salzgittera, Njemačka. Nazvan prema kompresoru zraka u srednjem odjeljku kojim su se otvarala i zatvarala vrata.
+STR_DESC_GVB_817                :Podrijetlo: {SILVER}Amsterdam{}{BLACK}Povijesne činjenice: {SILVER}Napravljen između 1990 i 1991 u BN iz Bruggesa, Belgija. Srednji odjeljci su napravljeni u Hainje iz Heerenveena. Nazvan prema stepenicama u vozilu jer je srednji odjeljak niži od ostalih.
+STR_DESC_GVB_2001               :Podrijetlo: {SILVER}Amsterdam{}{BLACK}Povijesne činjenice: {SILVER}Napravljen između 2002 i 2004 u Siemensu.
+
+STR_DESC_HTM_21                 :Podrijetlo: {SILVER}The Hague{}{BLACK}Povijesne činjenice: {SILVER}Napravljen između 1905 i 1907 u Werkspooru iz Amsterdama. Kako su bili izrazito brojni, bili su nazvani 'Fordjes' kao Fordov Model T automobil. Potpuno preuređeni 1929-1931, ugrađen jači motor a papučice za struju zamijenjene pantografima.
+STR_DESC_HTM_821                :Podrijetlo: {SILVER}The Hague{}{BLACK}Povijesne činjenice: {SILVER}Napravljen 1929 u La Brugeoise et Nivelles iz Brugesa, Belgija. Dodatak seriji 801-820.
+STR_DESC_HTM_821_751    :Podrijetlo: {SILVER}The Hague{}{BLACK}Povijesne činjenice: {SILVER}Napravljen 1929 u La Brugeoise et Nivelles iz Brugesa, Belgija. Dodatak seriji 801-820. Prikolica je iz serije 751-781, također napravljena u La Brugeoise 1929.
+STR_DESC_HTM_201                :Podrijetlo: {SILVER}The Hague{}{BLACK}Povijesne činjenice: {SILVER}Napravljen 1948 u Werkspooru iz Utrechta. Nazvan prema njegovom elektro-pneumatskom sistemu napravljenom u Švicarskoj.
+STR_DESC_HTM_201_780    :Podrijetlo: {SILVER}The Hague{}{BLACK}Povijesne činjenice: {SILVER}Napravljen 1948 u Werkspooru iz Utrechta. Nazvan prema njegovom elektro-pneumatskom sistemu napravljenom u Švicarskoj. Prikolica je iz serije 751-781, napravljena u La Brugeoise 1929 i modificirana za uporabu sa 'Zwitsersima'.
+
+STR_DESC_HTM_1301               :Podrijetlo: {SILVER}The Hague{}{BLACK}Povijesne činjenice: {SILVER}Napravljen 1971 u La Brugeoise et Nivelles iz Brugesa, Belgija. Ovo je treća generacija tramvajskih vozila za Hague.
+STR_DESC_HTM_1301_2101  :Podrijetlo: {SILVER}The Hague{}{BLACK}Povijesne činjenice: {SILVER}Napravljen 1971 u La Brugeoise et Nivelles iz Brugesa, Belgija. Ovo je treća generacija tramvajskih vozila za Hague. Dostavljeni su sa odgovarajućim motoriziranim prikolicama br. 2101-2130.
+STR_DESC_HTM_3001               :Podrijetlo: {SILVER}The Hague{}{BLACK}Povijesne činjenice: {SILVER}Napravljen 1981-1984 i 1992-1993 u La Brugeoise et Nivelles iz Brugesa, Belgija.
+STR_DESC_HTM_4001               :Podrijetlo: {SILVER}The Hague{}{BLACK}Povijesne činjenice: {SILVER}Napravljen 2006 i 2011 u Alstomu. Korišten na linijama RandstadRail pod upravljanjem HTM-a.
+
+STR_DESC_RET_127                :Podrijetlo: {SILVER}Rotterdam{}{BLACK}Povijesne činjenice: {SILVER}Napravljen 1908 od Allana iz Rotterdama. Dodatak seriji 21-126. Preuređen 1931, ugrađen jači motor a papučice za struju zamijenjene pantografima.
+STR_DESC_RET_152                :Podrijetlo: {SILVER}Rotterdam{}{BLACK}Povijesne činjenice: {SILVER}Napravljen 1913/14 (152-176) i 1921 (177-201) od Allana iz Rotterdama. Preuređen 1931, ugrađen jači motor a papučice za struju zamijenjene pantografima.
+STR_DESC_RET_231                :Podrijetlo: {SILVER}Rotterdam{}{BLACK}Povijesne činjenice: {SILVER}Napravljen 1957 u Schindleru iz Prattelna, Švicarska.
+STR_DESC_RET_351                :Podrijetlo: {SILVER}Rotterdam{}{BLACK}Povijesne činjenice: {SILVER}Napravljen 1964 u (i zato nazvan tako) DUEWAG-u iz Düsseldorfa, Njemačka.
+STR_DESC_RET_2001               :Podrijetlo: {SILVER}Rotterdam{}{BLACK}Povijesne činjenice: {SILVER}Napravljen 2003 u Alstomu. U 2011, RET počinje stavljati drugu seriju ovih vozila u uporabu: serija 2101-2153.
+
+STR_DESC_NBM_50                 :Podrijetlo: {SILVER}Utrecht-Zeist{}{BLACK}Povijesne činjenice: {SILVER}NBM 50 je bivše vozilo na paru, preuređeno na vozilo na električnu energiju.
+STR_DESC_GETA_70                :Podrijetlo: {SILVER}Arnhem{}{BLACK}Povijesne činjenice: {SILVER}Napravljen 1929 u Beynesu iz Haarlema. Usluge prijevoza tramvajem u Arnhemu su prekinute 1944 kada je većina voznog parka (uključujući i kompletnu seriju 70-75) uništena za vrijeme Bitke za Arnhem.
+STR_DESC_CONNEXXION_5001:Podrijetlo: {SILVER}Utrecht{}{BLACK}Povijesne činjenice: {SILVER}Napravljen 1983 u SIG iz Neuhausena, Švicarska. Korišten do 1994 od Westnederlanda, od 1994 do 1999 od Midneta i od Connexxiona od 1999. Vozila su obnovljena 2000-2001 i ponovno 2011-2012.
+
+STR_DESC_FUTURE_2001    :Opis: {SILVER}Bombardierov Flexity Outlook se trenutno ne koristi u tramvajskim kompanijama Nizozemske. Dodan je kao tramvaj budućnosti kako bi se povećala raznolikost u igrama u kasnijim godinama. Ovaj model je baziran na Eurotramu iz Strassbourga.
+STR_DESC_FUTURE_4001    :Opis: {SILVER}Ovo je nepostojeći tramvaj budućnosti. Dodan je kao tramvaj budućnosti kako bi se povećala raznolikost u igrama u kasnijim godinama. Rendallyne ima panoramski kat na oba kraja.
+STR_DESC_FUTURE_6001    :Opis: {SILVER}Ovo je nepostojeći tramvaj budućnosti. Dodan je kao tramvaj budućnosti kako bi  se povećala raznolikost u igrama u kasnijim godinama. SlrTrm ne uzima struju sa žica iznad pruge nego je opremljen solarnim panelima na krovu.

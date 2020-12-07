@@ -1,0 +1,277 @@
+//HTM 3001-3147
+/////////////////////////////////////
+//Purchase menu sprite and callback//
+/////////////////////////////////////
+
+spriteset(spriteset_purchase_real_htm_3001, "gfx/htm_3001.png") {
+	template_purchase(0, 140)
+}
+spriteset(spriteset_purchase_real_htm_3101, "gfx/htm_3101.png") {
+	template_purchase(0, 140)
+}
+spriteset(spriteset_purchase_real_htm_3078, "gfx/htm_3078.png") {
+	template_purchase(0, 140)
+}
+
+spriteset(spriteset_purchase_cc_htm_3101, "gfx/cc_htm_3101.png") {
+	template_purchase(0, 140)
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_purchase_year_real_htm_3001, current_year) {
+	0..1991:	spriteset_purchase_real_htm_3001;
+	1992..2000:	spriteset_purchase_real_htm_3101;
+	2001..2010:	spriteset_purchase_real_htm_3001;
+	spriteset_purchase_real_htm_3078;
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_purchase_sprite_htm_3001, param_livery) {
+	1:	spriteset_purchase_cc_htm_3101;
+    switch_purchase_year_real_htm_3001;
+}
+
+///////////////////
+//Vehicle sprites//
+///////////////////
+
+//htm 3001 red+beige
+spriteset(spriteset_real_htm_3001, "gfx/htm_3001.png") {
+	template_tram_24(0, 20)
+}
+spriteset(spriteset_real_htm_3001_1, "gfx/htm_3001.png") {
+	template_tram_16(0, 60)
+}
+spriteset(spriteset_real_htm_3001_2, "gfx/htm_3001.png") {
+	template_tram_20(0, 100)
+}
+
+//htm 3101 white+blue
+spriteset(spriteset_real_htm_3101, "gfx/htm_3101.png") {
+	template_tram_24(0, 20)
+}
+spriteset(spriteset_real_htm_3101_1, "gfx/htm_3101.png") {
+	template_tram_16(0, 60)
+}
+spriteset(spriteset_real_htm_3101_2, "gfx/htm_3101.png") {
+	template_tram_20(0, 100)
+}
+
+//htm 3116 white+red
+spriteset(spriteset_real_htm_3116, "gfx/htm_3116.png") {
+	template_tram_24(0, 20)
+}
+spriteset(spriteset_real_htm_3116_1, "gfx/htm_3116.png") {
+	template_tram_16(0, 60)
+}
+spriteset(spriteset_real_htm_3116_2, "gfx/htm_3116.png") {
+	template_tram_20(0, 100)
+}
+
+//htm 3080 red+beige+crashnose
+spriteset(spriteset_real_htm_3080, "gfx/htm_3080.png") {
+	template_tram_24(0, 20)
+}
+spriteset(spriteset_real_htm_3080_1, "gfx/htm_3080.png") {
+	template_tram_16(0, 60)
+}
+spriteset(spriteset_real_htm_3080_2, "gfx/htm_3080.png") {
+	template_tram_20(0, 100)
+}
+
+//htm 3078 red+red+beige+crashnose
+spriteset(spriteset_real_htm_3078, "gfx/htm_3078.png") {
+	template_tram_24(0, 20)
+}
+spriteset(spriteset_real_htm_3078_1, "gfx/htm_3078.png") {
+	template_tram_16(0, 60)
+}
+spriteset(spriteset_real_htm_3078_2, "gfx/htm_3078.png") {
+	template_tram_20(0, 100)
+}
+
+//htm 3101 2cc
+spriteset(spriteset_cc_htm_3101, "gfx/cc_htm_3101.png") {
+	template_tram_24(0, 20)
+}
+spriteset(spriteset_cc_htm_3101_1, "gfx/cc_htm_3101.png") {
+	template_tram_16(0, 60)
+}
+spriteset(spriteset_cc_htm_3101_2, "gfx/cc_htm_3101.png") {
+	template_tram_20(0, 100)
+}
+
+////////////////////////
+//Spritegroup switches//
+////////////////////////
+
+switch (FEAT_ROADVEHS, SELF, switch_spritegroup_real_htm_3001, position_in_consist ) {
+	1: spriteset_real_htm_3001_1;
+	2: spriteset_real_htm_3001_2;
+    spriteset_real_htm_3001;
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_spritegroup_real_htm_3101, position_in_consist ) {
+	1: spriteset_real_htm_3101_1;
+	2: spriteset_real_htm_3101_2;
+	spriteset_real_htm_3101;
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_spritegroup_real_htm_3116, position_in_consist ) {
+	1: spriteset_real_htm_3116_1;
+	2: spriteset_real_htm_3116_2;
+	spriteset_real_htm_3116;
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_spritegroup_real_htm_3080, position_in_consist ) {
+	1: spriteset_real_htm_3080_1;
+	2: spriteset_real_htm_3080_2;
+    spriteset_real_htm_3080;
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_spritegroup_real_htm_3078, position_in_consist ) {
+	1: spriteset_real_htm_3078_1;
+	2: spriteset_real_htm_3078_2;
+	spriteset_real_htm_3078;
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_spritegroup_cc_htm_3101, position_in_consist ) {
+	1: spriteset_cc_htm_3101_1;
+	2: spriteset_cc_htm_3101_2;
+    spriteset_cc_htm_3101;
+}
+
+///////////////////
+//Livery switches//
+///////////////////
+
+//3001: built before 1992 and from 2001 and before 2011
+//3101: built from 1992 and before 2001
+//3116: random if built between 2007 and before 2011
+//3080: all random from 2011
+//3078: all from 2011
+
+random_switch (FEAT_ROADVEHS, PARENT, switch_random_real_htm_3078) {
+	1: switch_spritegroup_real_htm_3080;
+	63: switch_spritegroup_real_htm_3078;
+}
+
+random_switch (FEAT_ROADVEHS, PARENT, switch_random_real_htm_3116) {
+	1: switch_spritegroup_real_htm_3116;
+	31: switch_spritegroup_real_htm_3001;
+}
+
+switch (FEAT_ROADVEHS, PARENT, switch_depotvisit_real_htm_3001, (date_of_last_service >= date(2011,1,1))) {
+	1: switch_random_real_htm_3078;
+	switch_spritegroup_real_htm_3001;
+}
+
+switch (FEAT_ROADVEHS, PARENT, switch_depotvisit_real_htm_3101, (date_of_last_service >= date(2001,1,1))) {
+	1: switch_depotvisit_real_htm_3001;
+	switch_spritegroup_real_htm_3101;
+}
+
+switch (FEAT_ROADVEHS, PARENT, switch_depotvisit_real_htm_3116, (date_of_last_service >= date(2011,1,1))) {
+	1: switch_random_real_htm_3078;
+	switch_random_real_htm_3116;
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_yearbuilt_real_htm_3001, build_year) {
+	0..1991:	switch_depotvisit_real_htm_3001;
+	1992..2000:	switch_depotvisit_real_htm_3101;
+	2001..2006:	switch_depotvisit_real_htm_3001;
+	2007..2010:	switch_depotvisit_real_htm_3116;
+	switch_random_real_htm_3078;
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_livery_htm_3001, param_livery) {
+	1:	switch_spritegroup_cc_htm_3101;
+    switch_yearbuilt_real_htm_3001;
+}
+
+/////////////////////
+//vehicle callbacks//
+/////////////////////
+
+//set number of articulated parts
+switch (FEAT_ROADVEHS, SELF, switch_cbarticulated_htm_3001, extra_callback_info1) {
+	0..2: return tram_htm_3001; //use same vehicle for all parts
+	CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+}
+
+//set length of each part
+switch (FEAT_ROADVEHS, SELF, switch_length_htm_3001, position_in_consist ) {
+	0: return 6;
+	return 2;
+}
+
+//set capacity of each part
+switch (FEAT_ROADVEHS, SELF, switch_capacity_htm_3001, position_in_consist ) {
+	return 255;
+}
+
+//////////////////////
+//vehicle properties//
+//////////////////////
+
+item (FEAT_ROADVEHS, tram_htm_3001) {
+	property {
+		name:							string(STR_NAME_HTM_3001);
+		introduction_date:				date(1981,1,1);
+		model_life:						VEHICLE_NEVER_EXPIRES;
+		retire_early:					0;
+		vehicle_life:					250;
+		loading_speed:					255;
+		cost_factor:					22;
+		running_cost_factor:			3;
+		speed:							511 km/h;
+		power: 							2535 hp;
+		weight: 						60 ton;
+		cargo_capacity: 				255;
+		tractive_effort_coefficient: 	1;
+		air_drag_coefficient: 			0; //0=default
+		//sound_effect: 				; //not yet implemented
+		//visual_effect:					visual_effect(VISUAL_EFFECT_DEFAULT, 0); 
+		
+		reliability_decay:				20;
+		climates_available:				ALL_CLIMATES;
+		refittable_cargo_classes:		ALL_NORMAL_CARGO_CLASSES;
+		sprite_id:						SPRITE_ID_NEW_ROADVEH;
+		misc_flags:						bitmask(ROADVEH_FLAG_TRAM);
+		refit_cost: 					0;
+		running_cost_base:				RUNNING_COST_ROADVEH;
+	}
+	
+	graphics {
+		purchase: switch_purchase_sprite_htm_3001;
+        additional_text: string(STR_DESC_HTM_3001);
+        length: switch_length_htm_3001;
+        articulated_part: switch_cbarticulated_htm_3001;
+        cargo_capacity: switch_capacity_htm_3001;
+        purchase_cargo_capacity: return 27;
+		switch_livery_htm_3001;
+	}
+}
+
+//only set 2CC flag if cc-parameter activated
+if (param_livery == 1) {
+	item (FEAT_ROADVEHS, tram_htm_3001) {
+		property {
+			misc_flags:					bitmask(ROADVEH_FLAG_TRAM, ROADVEH_FLAG_2CC);
+		}
+	}
+}
+
+//cargo refit options
+if (param_refit == 1) {
+	item (FEAT_ROADVEHS, tram_htm_3001) {
+		property {
+			refittable_cargo_classes:	bitmask(CC_PASSENGERS, CC_MAIL, CC_EXPRESS);
+		}
+	}
+}
+else if (param_refit == 2) {
+	item (FEAT_ROADVEHS, tram_htm_3001) {
+		property {
+			refittable_cargo_classes:	ALL_NORMAL_CARGO_CLASSES;
+		}
+	}
+}

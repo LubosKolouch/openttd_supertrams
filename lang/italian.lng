@@ -1,0 +1,88 @@
+##grflangid 0x27
+##plural 0
+##gender m ma f
+##case fp fs mp ms
+
+#Main grf title and description
+STR_GRF_NAME                    :{TITLE}
+STR_GRF_DESCRIPTION             :Tram olandesi per OpenTTD{}(c)2007,2008,2011 Rendall, FooBar e altri.{}Licenza: GPLv2 superiore.{}Leggere il file "readme" per ulteriori dettagli.
+STR_GRF_URL             :http://dev.openttdcoop.org/projects/dutchtramset
+
+
+#Parameter related strings
+STR_PARAM_LIVERY_NAME   :Livrea
+STR_PARAM_LIVERY_DESC   :Imposta le livree. Si possono usare le livree realistiche (impostazione predefinita) o i colori della compagnia (2CC).
+STR_PARAM_LIVERY_REAL   :Realistiche
+STR_PARAM_LIVERY_CC             :Colori della compagnia (2CC)
+
+STR_PARAM_REFIT_NAME    :Riadattabilità
+STR_PARAM_REFIT_DESC    :Sceglie le possibilità di riadattare i carichi dei tram. Si può scegliere fra solo passeggeri (impostazione di default), tipi di merci usati in città (passeggeri, posta e merci leggere) o tutti i tipi di merci.
+STR_PARAM_REFIT_PASS    :Solo passeggeri
+STR_PARAM_REFIT_TOWN    :Solo tipi di merce usati in città
+STR_PARAM_REFIT_ALL             :Tutti i tipi di merci
+
+
+#Vehicle names
+STR_NAME_GVB_491                :GVB 491-550 'Treassi'
+STR_NAME_GVB_491_951    :GVB 491-550 + 951-1000 'Treassi'
+STR_NAME_GVB_725                :GVB 725-779 (8G) 'Tram ad aria'
+STR_NAME_GVB_817                :GVB 817-841 (12G) 'Tram a scalini'
+STR_NAME_GVB_2001               :GVB 2001-2151 'Combino'
+
+STR_NAME_HTM_21                 :HTM 21-168 'Piccoli Ford'
+STR_NAME_HTM_821                :HTM 821-830
+STR_NAME_HTM_821_751    :HTM 821-830 + 751-781
+STR_NAME_HTM_201                :HTM 201-216 'Svizzero'
+STR_NAME_HTM_201_780    :HTM 201-216 + 751-781 'Svizzero'
+
+STR_NAME_HTM_1301               :HTM 1301-1340 'PCCs'
+STR_NAME_HTM_1301_2101  :HTM 1301-1340 + 2101-2130 'PCCs'
+STR_NAME_HTM_3001               :HTM 3001-3147 'GTL8'
+STR_NAME_HTM_4001               :HTM 4001-4072 'Citadis'
+
+STR_NAME_RET_127                :RET 127-151 'Tre finestre'
+STR_NAME_RET_152                :RET 152-201 'Tram del parco'
+STR_NAME_RET_231                :RET 231-244 'Schindlers'
+STR_NAME_RET_351                :RET 351-386 'Düwags'
+STR_NAME_RET_2001               :RET 2001-2060 'Citadis'
+
+STR_NAME_NBM_50                 :NBM 50 + 3 rimorchi
+STR_NAME_GETA_70                :GETA 70-75
+STR_NAME_CONNEXXION_5001:Connexxion 5001
+
+STR_NAME_FUTURE_2001    :Futuro 2001 'Flexity Outlook'
+STR_NAME_FUTURE_4001    :Futuro 4001 'Rendallyne'
+STR_NAME_FUTURE_6001    :Futuro 6001 'SlrTrm'
+
+
+#Vehicle descriptions
+STR_DESC_GVB_491                :Origine: {SILVER}Amsterdam{}{BLACK}Note storiche: {SILVER}Costruito dal 1948 al 1950 dak Werkspoor di Amsterdam.
+STR_DESC_GVB_491_951    :Origine: {SILVER}Amsterdam{}{BLACK}Note storiche: {SILVER}Costruito dal 1948 al 1950 dal Werkspoor di Amsterdam. Consegnato coi rimorchi 951-1000.
+STR_DESC_GVB_725                :Origine: {SILVER}Amsterdam{}{BLACK}Note storiche: {SILVER}Costruito dal 1974 al 1975 da Linke-Hofmann-Busch di Salzgitter, Germania. Deve il suo nome al compressore d'aria usato per aprire e chiudere le porte, e situato nella parte centrale.
+STR_DESC_GVB_817                :Origine: {SILVER}Amsterdam{}{BLACK}Note storiche: {SILVER}Costruito dal 1990 al 1991 da BN di Bruges, Belgio. I compartimenti centrali sono stati costruiti da Hainje a Heerenveen. Il nome deriva dai gradini all'interno, per via della parte centrale ribassata.
+STR_DESC_GVB_2001               :Origine: {SILVER}Amsterdam{}{BLACK}Note storiche: {SILVER}Costruito dal 2002 al 2004 da Siemens.
+
+STR_DESC_HTM_21                 :Origine: {SILVER}L'Aia{}{BLACK}Note storiche: {SILVER}Costruito dal 1905 al 1907 dal Werkspoor di Amsterdam. Erano molto diffusi, e per questo furono chiamati 'Fordjes' come la Ford modello T. Completamente ricostruito nel 1929-1931: nuovi motori più potenti furono installati, e gli archetti di alimentazione furono sostituiti dai pantografi.
+STR_DESC_HTM_821                :Origine: {SILVER}L'Aia{}{BLACK}Note storiche: {SILVER}Costruito nel 1929 da La Brugeoise di Bruges, Belgio. Riprende la serie 801-820.
+STR_DESC_HTM_821_751    :Origine: {SILVER}L'Aia{}{BLACK}Note storiche: {SILVER}Costruito nel 1929 da La Brugeoise di Bruges, Belgio. Riprende la serie 801-820. Il rimorchio è delle serie 751-781, costruito anch'esso da La Brugeoise nel 1929.
+STR_DESC_HTM_201                :Origine: {SILVER}L'Aia{}{BLACK}Note storiche: {SILVER}Costruito nel 1948 da Werkspoor di Utrecht. Il suo nome deriva dal suo sistema elettro-pneumatico, progettato in Svizzera.
+STR_DESC_HTM_201_780    :Origine: {SILVER}L'Aia{}{BLACK}Note storiche: {SILVER}Costruito nel 1948 da Werkspoor di Utrecht. Il suo nome deriva dal suo sistema elettro-pneumatico, progettato in Svizzera. Il rimorchio è della serie 751-781, costruito da La Brugeoise in 1929 e adattato all'uso con gli 'Svizzeri'.
+
+STR_DESC_HTM_1301               :Origine: {SILVER}L'Aia{}{BLACK}Note storiche: {SILVER}Costruito nel 1971 da La Brugeoise et Nivelles di Bruges, Belgio. La terza generazione dei tram PCC dell'Aia.
+STR_DESC_HTM_1301_2101  :Origine: {SILVER}L'Aia{}{BLACK}Note storiche: {SILVER}Costruito nel 1971 da La Brugeoise et Nivelles di Bruges, Belgio. a terza generazione dei tram PCC dell'Aia. Consegnato coi rimorchi motorizzati 2101-2130.
+STR_DESC_HTM_3001               :Origine: {SILVER}L'Aia{}{BLACK}Note storiche: {SILVER}Costruito dal 1981-1984 al 1992-1993 da La Brugeoise et Nivelles di Bruges, Belgio.
+STR_DESC_HTM_4001               :Origine: {SILVER}L'Aia{}{BLACK}Note storiche: {SILVER}Costruito dal 2006 al 2011 da Alstom. Usato sulle linee RalstadRail dall'operatore HTM.
+
+STR_DESC_RET_127                :Origine: {SILVER}Rotterdam{}{BLACK}Note storiche: {SILVER}Costruito nel 1908 da Allan di Rotterdam. Riprende la serie 21-126. Riqualificato nel 1931, con nuovi motori più potenti e un pantografo al posto degli archetti di alimentazione.
+STR_DESC_RET_152                :Origine: {SILVER}Rotterdam{}{BLACK}Note storiche: {SILVER}Costruito nel 1913/14 (152-176) al 1921 (177-201) da Allan di Rotterdam. Riqualificato nel 1931, con nuovi motori più potenti e un pantografo al posto degli archetti di alimentazione.
+STR_DESC_RET_231                :Origine: {SILVER}Rotterdam{}{BLACK}Note storiche: {SILVER}Costruito nel 1957 da Schindler of Pratteln, Svizzera.
+STR_DESC_RET_351                :Origine: {SILVER}Rotterdam{}{BLACK}Note storiche: {SILVER}Costruito nel 1964 da DUEWAG di Düsseldorf, Germany, da cui ha preso il nome.
+STR_DESC_RET_2001               :Origine: {SILVER}Rotterdam{}{BLACK}Note storiche: {SILVER}Costruito nel 2003 da Alstom. Nel 2011 RET ha iniziato a mettere in servizio la seconda tranche di questi veicoli: è la serie 2101-2153.
+
+STR_DESC_NBM_50                 :Origine: {SILVER}Utrecht-Zeist{}{BLACK}Note storiche: {SILVER}Una vecchia locomotiva a vapore nella quale è stato installato un motore elettrico.
+STR_DESC_GETA_70                :Origine: {SILVER}Arnhem{}{BLACK}Note storiche: {SILVER}Costruito nel 1929 da Beynes di Haarlem. Le linee tranviarie di Arnhem sono state smantellate nel 1944; la maggior parte del materiale rotabile (compresa l'intera serie 70-75) fu distrutta durante la Battaglia di Arnhem.
+STR_DESC_CONNEXXION_5001:Origine: {SILVER}Utrecht{}{BLACK}Note storiche: {SILVER}Costruito nel 1983 dalla SIG di Neuhausen, Svizzera. Fino al 1994 fu usato da Westnederland, dal 1994 al 1999 da Midnet, e da Connexxion dal 1999. Riqualificati nel 2000-2001, e di nuovo nel 2011-2012.
+
+STR_DESC_FUTURE_2001    :Descrizione: {SILVER}Il Flexity Outlook di Bombardier non è attualmente in uso in Olanda. Rappresenta un tram futuro per aggiungere varietà al gioco. Questo modello è basato sull'Eurotram di Strasburgo.
+STR_DESC_FUTURE_4001    :Descrizione: {SILVER}Tram di fantasia. Rappresenta un tram futuro per aggiungere varietà al gioco. Il Rendallyne ha finestre panoramiche alle estremità.
+STR_DESC_FUTURE_6001    :Descrizione: {SILVER}Tram di fantasia. Rappresenta un tram futuro per aggiungere varietà al gioco. Il SlrTrm non ha bisogno di catenaria, perché è equipaggiato da pannelli solari sul tetto.

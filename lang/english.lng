@@ -1,0 +1,85 @@
+﻿##grflangid 0x01
+
+#Main grf title and description
+STR_GRF_NAME			:{TITLE}
+STR_GRF_DESCRIPTION		:Trams of The Netherlands for OpenTTD {}(c)2007,2008,2011 Rendall, FooBar and others. {}License: GPLv2 or higher. {}See readme for details.
+STR_GRF_URL             :http://dev.openttdcoop.org/projects/dutchtramset
+
+
+#Parameter related strings
+STR_PARAM_LIVERY_NAME	:Livery
+STR_PARAM_LIVERY_DESC	:Set the vehicle liveries. Choose between real liveries (default) or company colours (2CC).
+STR_PARAM_LIVERY_REAL	:Real
+STR_PARAM_LIVERY_CC		:Company Colours (2CC)
+
+STR_PARAM_REFIT_NAME	:Refit
+STR_PARAM_REFIT_DESC	:Select the refits available for each tram. Choose between passengers only (default), cargo types that are used in towns (passenger, mail and express cargo classes) or all cargo types.
+STR_PARAM_REFIT_PASS	:Passengers only
+STR_PARAM_REFIT_TOWN	:Town cargo types only
+STR_PARAM_REFIT_ALL		:All cargo types
+
+
+#Vehicle names
+STR_NAME_GVB_491		:GVB 491-550 'Threeaxles'
+STR_NAME_GVB_491_951	:GVB 491-550 + 951-1000 'Threeaxles'
+STR_NAME_GVB_725		:GVB 725-779 (8G) 'Airwagons'
+STR_NAME_GVB_817		:GVB 817-841 (12G) 'Stairwagons'
+STR_NAME_GVB_2001		:125 GVB 2001-2151 'Combino'
+
+STR_NAME_HTM_21			:HTM 21-168 'Little Fords'
+STR_NAME_HTM_821		:HTM 821-830
+STR_NAME_HTM_821_751	:HTM 821-830 + 751-781
+STR_NAME_HTM_201		:HTM 201-216 'Swiss' 
+STR_NAME_HTM_201_780	:HTM 201-216 + 751-781 'Swiss' 
+
+STR_NAME_HTM_1301		:HTM 1301-1340 'PCCs'
+STR_NAME_HTM_1301_2101	:HTM 1301-1340 + 2101-2130 'PCCs'
+STR_NAME_HTM_3001		:765 HTM 3001-3147 'GTL8'
+STR_NAME_HTM_4001		:1020 'Citadis'
+
+STR_NAME_RET_127		:RET 127-151 'Threewindows' 
+STR_NAME_RET_152		:RET 152-201 'Parkwagons' 
+STR_NAME_RET_231		:RET 231-244 'Schindlers'
+STR_NAME_RET_351		:600 RET 351-386 'Düwags'
+STR_NAME_RET_2001		:RET 2001-2060 'Citadis'
+
+STR_NAME_NBM_50			:NBM 50 + 3 trailers
+STR_NAME_GETA_70		:60 GETA 70-75
+STR_NAME_CONNEXXION_5001:Connexxion 5001
+
+STR_NAME_FUTURE_2001	:13005 Future 2001 'Flexity Outlook'
+STR_NAME_FUTURE_4001	:5355 Future 4001 'Rendallyne'
+STR_NAME_FUTURE_6001	:2550 Future 'SlrTrm'
+
+
+#Vehicle descriptions
+STR_DESC_GVB_491		:Origin: {SILVER}Amsterdam {}{BLACK}Historic facts: {SILVER}Built between 1948 and 1950 by Werkspoor of Amsterdam.
+STR_DESC_GVB_491_951	:Origin: {SILVER}Amsterdam {}{BLACK}Historic facts: {SILVER}Built between 1948 and 1950 by Werkspoor of Amsterdam. Delivered with matching trailers 951-1000.
+STR_DESC_GVB_725		:Origin: {SILVER}Amsterdam {}{BLACK}Historic facts: {SILVER}Built between 1974 and 1975 by Linke-Hofmann-Busch of Salzgitter, Germany. Named after the air compressor in the middle compartment used for operating the doors.
+STR_DESC_GVB_817		:Origin: {SILVER}Amsterdam {}{BLACK}Historic facts: {SILVER}Built between 1990 and 1991 by BN of Bruges, Belgium. The middle compartments were built by Hainje of Heerenveen. Named after the the steps in the vehicle due to the lowered middle compartment.
+STR_DESC_GVB_2001		:Origin: {SILVER}Amsterdam {}{BLACK}Historic facts: {SILVER}Built between 2002 and 2004 by Siemens. 
+
+STR_DESC_HTM_21			:Origin: {SILVER}The Hague {}{BLACK}Historic facts: {SILVER}Built between 1905 and 1907 by Werkspoor of Amsterdam. As they were particularly numerous they were nicknamed 'Fordjes' after Ford's Model T car. Completely rebuilt in 1929-1931, fitted with more powerful engines and bow collectors replaced with pantographs.
+STR_DESC_HTM_821		:Origin: {SILVER}The Hague {}{BLACK}Historic facts: {SILVER}Built in 1929 by La Brugeoise of Bruges, Belgium. An extension of series 801-820.
+STR_DESC_HTM_821_751	:Origin: {SILVER}The Hague {}{BLACK}Historic facts: {SILVER}Built in 1929 by La Brugeoise of Bruges, Belgium. An extension of series 801-820. The trailer is from series 751-781, also built by La Brugeoise in 1929.
+STR_DESC_HTM_201		:Origin: {SILVER}The Hague {}{BLACK}Historic facts: {SILVER}Built in 1948 by Werkspoor of Utrecht. Named after their Swiss-made electro-pneumatical system.
+STR_DESC_HTM_201_780	:Origin: {SILVER}The Hague {}{BLACK}Historic facts: {SILVER}Built in 1948 by Werkspoor of Utrecht. Named after their Swiss-made electro-pneumatical system. The trailer is from series 751-781, built by La Brugeoise in 1929 and modified to be used with the 'Zwitsers'.
+
+STR_DESC_HTM_1301		:Origin: {SILVER}The Hague {}{BLACK}Historic facts: {SILVER}Built in 1971 by La Brugeoise et Nivelles of Bruges, Belgium. This is the third generation of PCC-cars for The Hague.
+STR_DESC_HTM_1301_2101	:Origin: {SILVER}The Hague {}{BLACK}Historic facts: {SILVER}Built in 1971 by La Brugeoise et Nivelles of Bruges, Belgium. This is the third generation of PCC-cars for The Hague. Delivered with matching powered trailers 2101-2130.
+STR_DESC_HTM_3001		:Origin: {SILVER}The Hague {}{BLACK}Historic facts: {SILVER}Built in 1981-1984 and 1992-1993 by La Brugeoise et Nivelles of Bruges, Belgium.
+STR_DESC_HTM_4001		:Origin: {SILVER}The Hague {}{BLACK}Historic facts: {SILVER}Built in 2006 and 2011 by Alstom. Used on the RandstadRail lines operated by HTM.
+
+STR_DESC_RET_127		:Origin: {SILVER}Rotterdam {}{BLACK}Historic facts: {SILVER}Built in 1908 by Allan of Rotterdam. An extension of series 21-126. Overhauled in 1931, fitted with more powerful engines and bow collectors replaced with pantographs.
+STR_DESC_RET_152		:Origin: {SILVER}Rotterdam {}{BLACK}Historic facts: {SILVER}Built in 1913/14 (152-176) and 1921 (177-201) by Allan of Rotterdam. Overhauled in 1931, fitted with more powerful engines and bow collectors replaced with pantographs.
+STR_DESC_RET_231		:Origin: {SILVER}Rotterdam {}{BLACK}Historic facts: {SILVER}Built in 1957 by Schindler of Pratteln, Switzerland.
+STR_DESC_RET_351		:Origin: {SILVER}Rotterdam {}{BLACK}Historic facts: {SILVER}Built in 1964 by (and named after) DUEWAG of Düsseldorf, Germany.
+STR_DESC_RET_2001		:Origin: {SILVER}Rotterdam {}{BLACK}Historic facts: {SILVER}Built in 2003 by Alstom. In 2011 RET started putting the second tranche of vehicles into service: series 2101-2153 
+
+STR_DESC_NBM_50			:Origin: {SILVER}Utrecht-Zeist {}{BLACK}Historic facts: {SILVER}The NBM 50 is an ex steam engine refitted as an electric engine. 
+STR_DESC_GETA_70		:Origin: {SILVER}Arnhem {}{BLACK}Historic facts: {SILVER}Built in 1929 by Beynes of Haarlem. Tram services in Arnhem ended in 1944, when most of the rolling stock (including the complete series 70-75) were destroyed during the Battle of Arnhem.
+STR_DESC_CONNEXXION_5001:Origin: {SILVER}Utrecht {}{BLACK}Historic facts: {SILVER}Built in 1983 by SIG of Neuhausen, Switzerland. Operated until 1994 by Westnederland, from 1994 to 1999 by Midnet and by Connexxion since 1999. The vehicles were refurbished in 2000-2001 and once more in 2011-2012.
+
+STR_DESC_FUTURE_2001	:Description: {SILVER}The Flexity Outlook by Bombardier is currently not used by tram companies in the Netherlands. It is provided as future tram to allow some variety in later game years. This particular model is based on the Eurotram of Strasbourg.
+STR_DESC_FUTURE_4001	:Description: {SILVER}This is a nonexistent future tram. It is provided as future tram to allow some variety in later game years. The Rendallyne has a panoramic upper deck at both ends.
+STR_DESC_FUTURE_6001	:Description: {SILVER}This is a nonexistent future tram. It is provided as future tram to allow some variety in later game years. The SlrTrm doesn't draw electricity from overhead wires, but is instead equipped with solar panels on the roof.

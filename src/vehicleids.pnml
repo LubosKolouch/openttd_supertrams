@@ -1,0 +1,31 @@
+//this file set the vehicle 0xs for all vehicles to maintain
+//compatibility with the RC-release
+
+//vehicles in RC
+item (FEAT_ROADVEHS, tram_htm_21,           0x44) {}
+item (FEAT_ROADVEHS, tram_ret_127,          0x45) {}
+item (FEAT_ROADVEHS, tram_ret_152,          0x46) {} //used to have trailer, now doesn't, seems not to be problematic; it uses the engine as trailer after upgrade.
+item (FEAT_ROADVEHS, tram_htm_821_751,      0x47) {}
+item (FEAT_ROADVEHS, tram_geta_70,          0x48) {}
+item (FEAT_ROADVEHS, tram_nbm_50,           0x49) {}
+item (FEAT_ROADVEHS, tram_gvb_491_951,      0x4A) {}
+item (FEAT_ROADVEHS, tram_htm_201_780,      0x4B) {}
+item (FEAT_ROADVEHS, tram_ret_231,          0x4C) {}
+item (FEAT_ROADVEHS, tram_ret_351,          0x4D) {}
+item (FEAT_ROADVEHS, tram_htm_1301_2101,    0x4E) {}
+item (FEAT_ROADVEHS, tram_gvb_725,          0x4F) {}
+item (FEAT_ROADVEHS, tram_htm_3001,         0x50) {}
+item (FEAT_ROADVEHS, tram_connexxion_5001,  0x51) {}
+item (FEAT_ROADVEHS, tram_gvb_817,          0x52) {}
+item (FEAT_ROADVEHS, tram_gvb_2001,         0x53) {}
+item (FEAT_ROADVEHS, tram_ret_2001,         0x54) {}
+item (FEAT_ROADVEHS, tram_htm_4001,         0x55) {}
+item (FEAT_ROADVEHS, tram_future_2001,      0x56) {}
+item (FEAT_ROADVEHS, tram_future_6001,      0x57) {}
+
+//New vehicles
+item (FEAT_ROADVEHS, tram_future_4001,      0x58) {}
+item (FEAT_ROADVEHS, tram_gvb_491,          0x59) {}
+item (FEAT_ROADVEHS, tram_htm_201,          0x5A) {}
+item (FEAT_ROADVEHS, tram_htm_821,          0x5B) {}
+item (FEAT_ROADVEHS, tram_htm_1301,         0x5C) {}

@@ -1,0 +1,41 @@
+//this file set the sort order of vehicles
+//sort by company and then year
+
+sort(FEAT_ROADVEHS, [
+    //GVB
+    tram_gvb_491,
+    tram_gvb_491_951,
+    tram_gvb_725,
+    tram_gvb_817,
+    tram_gvb_2001,
+    
+    //HTM
+    tram_htm_21,
+    tram_htm_821,
+    tram_htm_821_751,
+    tram_htm_201,
+    tram_htm_201_780,
+    tram_htm_1301,
+    tram_htm_1301_2101,
+    tram_htm_3001,
+    tram_htm_4001,
+    
+    //RET
+    tram_ret_127,
+    tram_ret_152,
+    tram_ret_231,
+    tram_ret_351,
+    tram_ret_2001,
+    
+    //Other
+    tram_geta_70,
+    tram_nbm_50,
+    tram_connexxion_5001,
+    
+    
+    //Future
+    tram_future_2001,
+    tram_future_4001,
+    tram_future_6001,
+    
+]);

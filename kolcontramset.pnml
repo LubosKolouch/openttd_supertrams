@@ -1,0 +1,42 @@
+// List of source files included from main file
+
+//define grf and parameters
+#include "src/header.pnml"
+
+//include sprite templates
+#include "src/templates.pnml"
+
+//assign vehicle ids and sort vehicles
+#include "src/vehicleids.pnml"
+#include "src/vehiclesort.pnml"
+
+//vehicles
+#include "src/trams/gvb_491.pnml"
+#include "src/trams/gvb_491_951.pnml"
+#include "src/trams/gvb_725.pnml"
+#include "src/trams/gvb_817.pnml"
+#include "src/trams/gvb_2001.pnml"
+
+#include "src/trams/htm_21.pnml"
+#include "src/trams/htm_821.pnml"
+#include "src/trams/htm_821_751.pnml"
+#include "src/trams/htm_201.pnml"
+#include "src/trams/htm_201_780.pnml"
+#include "src/trams/htm_1301.pnml"
+#include "src/trams/htm_1301_2101.pnml"
+#include "src/trams/htm_3001.pnml"
+#include "src/trams/htm_4001.pnml"
+
+#include "src/trams/ret_127.pnml"
+#include "src/trams/ret_152.pnml"
+#include "src/trams/ret_231.pnml"
+#include "src/trams/ret_351.pnml"
+#include "src/trams/ret_2001.pnml"
+
+#include "src/trams/nbm_50.pnml"
+#include "src/trams/geta_70.pnml"
+#include "src/trams/connexxion_5001.pnml"
+
+#include "src/trams/future_2001.pnml"
+#include "src/trams/future_4001.pnml"
+#include "src/trams/future_6001.pnml"

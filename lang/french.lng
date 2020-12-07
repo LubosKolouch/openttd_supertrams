@@ -1,0 +1,87 @@
+##grflangid 0x03
+##plural 2
+##gender m m2 f
+
+#Main grf title and description
+STR_GRF_NAME                    :{TITLE}
+STR_GRF_DESCRIPTION             :Tramways des Pays-Bas pour OpenTTD{}(c)2007,2008,2011 Rendall, FooBar et d'autres.{}Licence: GPLv2 ou plus.{}Voir le 'readme' pour plus de détails.
+STR_GRF_URL             :http://dev.openttdcoop.org/projects/dutchtramset
+
+
+#Parameter related strings
+STR_PARAM_LIVERY_NAME   :Livrée
+STR_PARAM_LIVERY_DESC   :Définit la livrée des véhicules. Les livrées originales sont utilisées par défaut, mais il est possible d'utiliser les couleurs de compagnie (2CC).
+STR_PARAM_LIVERY_REAL   :Réelle
+STR_PARAM_LIVERY_CC             :Couleurs de Compagnie (2CC)
+
+STR_PARAM_REFIT_NAME    :Réaménagement
+STR_PARAM_REFIT_DESC    :Choisir les cargaisons pour le réaménagement des trams. Par défaut les trams ne transportent que des passagers, mais ils peuvent également transporter les marchandises acceptées par les villes (passagers, courrier, marchandises express), ou toutes les cargaisons du jeu.
+STR_PARAM_REFIT_PASS    :Passagers uniquement
+STR_PARAM_REFIT_TOWN    :Cargaisons acceptées par les villes seulement
+STR_PARAM_REFIT_ALL             :Tous types de cargaisons
+
+
+#Vehicle names
+STR_NAME_GVB_491                :GVB 491-550 'Drieassers' (3 essieux)
+STR_NAME_GVB_491_951    :GVB 491-550 + 951-1000 'Drieassers' (3 essieux)
+STR_NAME_GVB_725                :GVB 725-779 (8G) 'Luchtwagens' (Wagon à air)
+STR_NAME_GVB_817                :GVB 817-841 (12G) 'Trapwagens' (Wagon-escalier)
+STR_NAME_GVB_2001               :GVB 2001-2151 'Combino'
+
+STR_NAME_HTM_21                 :HTM 21-168 'Fordjes' (Petit Ford)
+STR_NAME_HTM_821                :HTM 821-830
+STR_NAME_HTM_821_751    :HTM 821-830 + 751-781
+STR_NAME_HTM_201                :HTM 201-216 'Zwitsers' (Le Suisse)
+STR_NAME_HTM_201_780    :HTM 201-216 + 751-781 'Zwitsers' (Le Suisse)
+
+STR_NAME_HTM_1301               :HTM 1301-1340 'PCCs'
+STR_NAME_HTM_1301_2101  :HTM 1301-1340 + 2101-2130 'PCCs'
+STR_NAME_HTM_3001               :HTM 3001-3147 'GTL8'
+STR_NAME_HTM_4001               :HTM 4001-4072 'Citadis'
+
+STR_NAME_RET_127                :RET 127-151 'Drieramers' (3 fenêtres)
+STR_NAME_RET_152                :RET 152-201 'Parkwagens'
+STR_NAME_RET_231                :RET 231-244 'Schindlers'
+STR_NAME_RET_351                :RET 351-386 'Düwags'
+STR_NAME_RET_2001               :RET 2001-2060 'Citadis'
+
+STR_NAME_NBM_50                 :NBM 50 + 3 remorques
+STR_NAME_GETA_70                :GETA 70-75
+STR_NAME_CONNEXXION_5001:Connexxion 5001
+
+STR_NAME_FUTURE_2001    :Future 2001 'Flexity Outlook'
+STR_NAME_FUTURE_4001    :Future 4001 'Rendallyne'
+STR_NAME_FUTURE_6001    :Future 6001 'SlrTrm'
+
+
+#Vehicle descriptions
+STR_DESC_GVB_491                :Origine{NBSP}: {SILVER}Amsterdam{}{BLACK}Histoire{NBSP}: {SILVER}Construits entre 1948 et 1950 par Werkspoor (Amsterdam).
+STR_DESC_GVB_491_951    :Origine{NBSP}: {SILVER}Amsterdam{}{BLACK}Histoire{NBSP}: {SILVER}Construits entre 1948 et 1950 par Werkspoor (Amsterdam). Livrés avec les remorques assorties 951-1000.
+STR_DESC_GVB_725                :Origine{NBSP}: {SILVER}Amsterdam{}{BLACK}Histoire{NBSP}: {SILVER}Construits entre 1974 et 1975 par Linke-Hofmann-Busch (Salzgitter, Allemagne). Le surnom vient du compresseur à air (situé dans le compartiment du milieu) qui ouvrait les portes.
+STR_DESC_GVB_817                :Origine{NBSP}: {SILVER}Amsterdam{}{BLACK}Histoire{NBSP}: {SILVER}Construits entre 1990 et 1991 par BN (Bruges, Belgique). La partie du milieu était construite par Hainje (Heerenveen), et était un peu plus basse que les extrémités, d'où la présence d'escaliers qui expliquent le surnom.
+STR_DESC_GVB_2001               :Origine{NBSP}: {SILVER}Amsterdam{}{BLACK}Histoire{NBSP}: {SILVER}Construits entre 2002 et 2004 par Siemens.
+
+STR_DESC_HTM_21                 :Origine{NBSP}: {SILVER}The Hague{}{BLACK}Histoire{NBSP}: {SILVER}Construits entre 1905 et 1907 par Werkspoor (Amsterdam). Leur très grand nombre leur valut le surnom de 'Fordjes', d'après la Ford T. Intégralement reconstruits en 1929-1931, avec des moteurs plus puissants et des pantographes à la place des collecteurs à arc.
+STR_DESC_HTM_821                :Origine{NBSP}: {SILVER}La Haye{}{BLACK}Histoire{NBSP}: {SILVER}Construits en 1929 par La Brugeoise (Bruges, Belgique). Une extension de la série 801-820.
+STR_DESC_HTM_821_751    :Origine{NBSP}: {SILVER}La Haye{}{BLACK}Histoire{NBSP}: {SILVER}Construits en 1929 par La Brugeoise (Bruges, Belgique). Une extension de la série 801-820. La remorque vient de la série 751-781, également construite par La Brugeoise en 1929.
+STR_DESC_HTM_201                :Origine{NBSP}: {SILVER}La Haye{}{BLACK}Histoire{NBSP}: {SILVER}Construits en 1948 par Werkspoor (Utrecht). Le surnom vient du système électro-pneumatique, fabriqué en Suisse.
+STR_DESC_HTM_201_780    :Origine{NBSP}: {SILVER}La Haye{}{BLACK}Histoire{NBSP}: {SILVER}Construits en 1948 par Werkspoor (Utrecht). Le surnom vient du système électro-pneumatique, fabriqué en Suisse. La remorque est de la série 751-781, construite par La Brugeoise en 1929 et modifiée pour être utilisée avec les 'Zwitsers'.
+
+STR_DESC_HTM_1301               :Origine{NBSP}: {SILVER}La Haye{}{BLACK}Histoire{NBSP}: {SILVER}Construits en 1971 par La Brugeoise et Nivelles (Bruges, Belgique). La troisième génération de véhicules PCC pour La Haye.
+STR_DESC_HTM_1301_2101  :Origine{NBSP}: {SILVER}La Haye{}{BLACK}Histoire{NBSP}: {SILVER}Construits en 1971 par La Brugeoise et Nivelles (Bruges, Belgique). La troisième génération de véhicules PCC pour La Haye. Livrés avec remorques motorisées assorties 2101-2130.
+STR_DESC_HTM_3001               :Origine{NBSP}: {SILVER}La Haye{}{BLACK}Histoire{NBSP}: {SILVER}Construits en 1981-1984 et 1992-1993 par La Brugeoise et Nivelles (Bruges, Belgique).
+STR_DESC_HTM_4001               :Origine{NBSP}: {SILVER}La Haye{}{BLACK}Histoire{NBSP}: {SILVER}Construits en 2006 et 2011 par Alstom. Utilisé sur les lignes RandstadRail exploitées par HTM.
+
+STR_DESC_RET_127                :Origine{NBSP}: {SILVER}Rotterdam{}{BLACK}Histoire{NBSP}: {SILVER}Construits en 1908 par Allan (Rotterdam). Une extension de la série 21-126. Remaniés en 1931, avec des moteurs plus puissants et des pantographes à la place des collecteurs à arc.
+STR_DESC_RET_152                :Origine{NBSP}: {SILVER}Rotterdam{}{BLACK}Histoire{NBSP}: {SILVER}Construits en 1913/14 (152-176), puis 1921 (177-201) par Allan (Rotterdam). Remaniés en 1931, avec des moteurs plus puissants et des pantographes à la place des collecteurs à arc.
+STR_DESC_RET_231                :Origine{NBSP}: {SILVER}Rotterdam{}{BLACK}Histoire{NBSP}: {SILVER}Construits en 1957 par Schindler (Pratteln, Suisse).
+STR_DESC_RET_351                :Origine{NBSP}: {SILVER}Rotterdam{}{BLACK}Histoire{NBSP}: {SILVER}Construits en 1964 par DUEWAG (Düsseldorf, Allemagne). D'où leur nom.
+STR_DESC_RET_2001               :Origine{NBSP}: {SILVER}Rotterdam{}{BLACK}Histoire{NBSP}: {SILVER}Construits en 2003 par Alstom. En 2011, RET mit en service la seconde tranche{NBSP}: la série 2101-2153.
+
+STR_DESC_NBM_50                 :Origine{NBSP}: {SILVER}Utrecht-Zeist{}{BLACK}Histoire{NBSP}: {SILVER}Le NBM 50 est une ancienne locomotive à vapeur réaménagée avec un moteur électrique.
+STR_DESC_GETA_70                :Origine{NBSP}: {SILVER}Arnhem{}{BLACK}Histoire{NBSP}: {SILVER}Construits en 1929 par Beynes (Haarlem). Le service de tramway d'Arnhem prit fin en 1944, quand la plupart du matériel roulant (y compris l'intégralité de la série 70-75) fut détruit pendant la bataille d'Arnhem.
+STR_DESC_CONNEXXION_5001:Origine{NBSP}: {SILVER}Utrecht{}{BLACK}Histoire{NBSP}: {SILVER}Construits en 1893 par SIG (Neihause, Suisse). Utilisés jusqu'en 1994 par Westnederland, de 1994 à 1999 par Midnet et par Connexxion depuis 1999. Ces véhicles ont été rénovés en 2000-2001 puis en 2011-2012.
+
+STR_DESC_FUTURE_2001    :Description{NBSP}: {SILVER}Le Flexity Outlook de Bombardier n'est utilisé aux Pays-Bas pour le moment. Il sert de tram moderne pour les jeux dans le futur. Ce modèle est basé sur l'Eurotram de Strasbourg.
+STR_DESC_FUTURE_4001    :Description{NBSP}: {SILVER}Ce véhicule fictif sert de tram moderne pour les jeux dans le futur. Le Rendallyne a un étage panoramique à ses deux extrémités.
+STR_DESC_FUTURE_6001    :Description{NBSP}: {SILVER}Ce véhicule fictif sert de tram moderne pour les jeux dans le futur. Le SlrTrm n'a pas besoin de caténaire, il est équipé de panneaux solaires sur le toit.

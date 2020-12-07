@@ -1,0 +1,87 @@
+##grflangid 0x22
+##plural 0
+##gender Masculin Femenin
+
+#Main grf title and description
+STR_GRF_NAME                    :{TITLE}
+STR_GRF_DESCRIPTION             :Tramvies d'Holanda per a OpenTTD{}(c)2007, 2008, 2011 Rendall, FooBar i altres.{}Llicència: GPLv2 o superior.{}Veure llegeix-me per a més detalls.
+STR_GRF_URL             :http://dev.openttdcoop.org/projects/dutchtramset
+
+
+#Parameter related strings
+STR_PARAM_LIVERY_NAME   :Esquema de colors
+STR_PARAM_LIVERY_DESC   :Escull l'esquema de colors del vehicle. Es pot escollir entre els colors reals (per defecte) o els colors de la companyia (2CC).
+STR_PARAM_LIVERY_REAL   :Real
+STR_PARAM_LIVERY_CC             :Colors de companyia (2CC)
+
+STR_PARAM_REFIT_NAME    :Remodela
+STR_PARAM_REFIT_DESC    :Selecciona les remodelacions disponibles per a cada tramvia. Es pot escollir entre només passatgers (per defecte), tipus de càrrega emprats en poblacions (passatgers, correu i classes de càrrega exprés) o tots els tipus de càrrega.
+STR_PARAM_REFIT_PASS    :Només passatgers
+STR_PARAM_REFIT_TOWN    :Només càrregues que poden rebre les poblacions
+STR_PARAM_REFIT_ALL             :Tots els tipus de càrrega
+
+
+#Vehicle names
+STR_NAME_GVB_491                :GVB 491-550 'Drieassers'
+STR_NAME_GVB_491_951    :GVB 491-550 + 951-1000 'Drieassers'
+STR_NAME_GVB_725                :GVB 725-779 (8G) 'Luchtwagens'
+STR_NAME_GVB_817                :GVB 817-841 (12G) 'Trapwagens'
+STR_NAME_GVB_2001               :GVB 2001-2151 'Combino'
+
+STR_NAME_HTM_21                 :HTM 21-168 'Fordjes'
+STR_NAME_HTM_821                :HTM 821-830
+STR_NAME_HTM_821_751    :HTM 821-830 + 751-781
+STR_NAME_HTM_201                :HTM 201-216 'Zwitsers'
+STR_NAME_HTM_201_780    :HTM 201-216 + 751-781 'Zwitsers'
+
+STR_NAME_HTM_1301               :HTM 1301-1340 'PCCs'
+STR_NAME_HTM_1301_2101  :HTM 1301-1340 + 2101-2130 'PCCs'
+STR_NAME_HTM_3001               :HTM 3001-3147 'GTL8'
+STR_NAME_HTM_4001               :HTM 4001-4072 'Citadis'
+
+STR_NAME_RET_127                :RET 127-151 'Drieramers'
+STR_NAME_RET_152                :RET 152-201 'Parkwagens'
+STR_NAME_RET_231                :RET 231-244 'Schindlers'
+STR_NAME_RET_351                :RET 351-386 'Düwags'
+STR_NAME_RET_2001               :RET 2001-2060 'Citadis'
+
+STR_NAME_NBM_50                 :NBM 50 + 3 remolcs
+STR_NAME_GETA_70                :GETA 70-75
+STR_NAME_CONNEXXION_5001:Connexxion 5001
+
+STR_NAME_FUTURE_2001    :Futur 2001 'Flexity Outlook'
+STR_NAME_FUTURE_4001    :Futur 4001 'Rendallyne'
+STR_NAME_FUTURE_6001    :Futur 6001 'SlrTrm'
+
+
+#Vehicle descriptions
+STR_DESC_GVB_491                :Origen: {SILVER}Amsterdam{}{BLACK}Fets històrics: {SILVER}Construït entre 1948 i 1950 per Werkspoor d'Amsterdam.
+STR_DESC_GVB_491_951    :Origen: {SILVER}Amsterdam{}{BLACK}Fets històrics: {SILVER}Construït entre 1948 i 1950 per Werkspoor d'Amsterdam. Distribuïts amb remolcs compatibles 951-1000.
+STR_DESC_GVB_725                :Origen: {SILVER}Amsterdam{}{BLACK}Fets històrics: {SILVER}Construït entre 1974 i 1975 per Linke-Hofmann-Busch de Salzgitter, Alemanya. El nom 'Luchtwagens' (Vagons d'aire) prové del compressor d'aire del compartiment del mig per a accionar les portes.
+STR_DESC_GVB_817                :Origen: {SILVER}Amsterdam{}{BLACK}Fets històrics: {SILVER}Construït entre el 1990 i el 1991 per BN de Bruges, Bèlgica. Els compartiments del mig els va construir Hainje de Heerenveen. Se li va posar de nom 'Trapwagens' (Vagons amb escales) pels graons que té el vehicle a dins, ja que el compartiment del mig és més baix que la resta.
+STR_DESC_GVB_2001               :Origen: {SILVER}Amsterdam{}{BLACK}Fets històrics: {SILVER}Construït entre 2002 i 2004 per Siemens.
+
+STR_DESC_HTM_21                 :Origen: {SILVER}La Haia{}{BLACK}Fets històrics: {SILVER}Construït entre 1905 i 1907 per Werkspoor d'Amsterdam. Com que n'hi havia molts, se'l va anomenar amb un renom: 'Fordjes', pel popular model de vagó Ford T (producció en cadena i distribuició mundial; tota una fita en la història). Es va reformar completament en 1929-1931, reequipat amb motors de major potència i pantògrafs en lloc de col·lectors d'arc.
+STR_DESC_HTM_821                :Origen: {SILVER}La Haia{}{BLACK}Fets històrics: {SILVER}Construït en 1929 per La Brugeoise et Nivelles de Bruges, Bèlgica. Una extensió de les sèries 801-820.
+STR_DESC_HTM_821_751    :Origen: {SILVER}La Haia{}{BLACK}Fets històrics: {SILVER}Construït en 1929 per La Brugeoise de Bruges, Bèlgica. Una extensió de les sèries 801-820. El remolc és de les sèries 751-781, també construït per La Brugeoise en 1929.
+STR_DESC_HTM_201                :Origen: {SILVER}La Haia{}{BLACK}Fets històrics: {SILVER}Construït en 1948 per Werkspoor d'Utrecht. Se l'anomenava 'Zwitsers' (Suís) ja que els sistemes elèctric i el pneumàtic es van construir a Suïssa.
+STR_DESC_HTM_201_780    :Origen: {SILVER}La Haia{}{BLACK}Fets històrics: {SILVER}Construït en 1948 per Werkspoor d'Utrecht. Se l'anomenava 'Zwitsers' (Suís) ja que els sistemes elèctric i el pneumàtic es van construir a Suïssa. El remolc és de les sèries 751-781, construït per La Brugeoise en 1929 i modificat per poder-se usar amb el 'Zwitsers'.
+
+STR_DESC_HTM_1301               :Origen: {SILVER}La Haia{}{BLACK}Fets històrics: {SILVER}Construït en 1971 per La Brugeoise et Nivelles de Bruges, Bèlgica. Aquesta és la tercera generació de vagons PCC per a La Haia.
+STR_DESC_HTM_1301_2101  :Origen: {SILVER}La Haia{}{BLACK}Fets històrics: {SILVER}Construït en 1971 per La Brugeoise et Nivelles de Bruges, Bèlgica. Aquesta és la tercera generació de vagons PCC per a La Haia. Distribuïts amb remolcs compatibles 2101-2130.
+STR_DESC_HTM_3001               :Origen: {SILVER}La Haia{}{BLACK}Fets històrics: {SILVER}Construït en 1981-1984 i en 1992-1993 per La Brugeoise et Nivelles de Bruges, Bèlgica.
+STR_DESC_HTM_4001               :Origen: {SILVER}La Haia{}{BLACK}Fets històrics: {SILVER}Construït en 2006 i 2011 per Alstom. Emprat en les línies RandstadRail operades per HTM.
+
+STR_DESC_RET_127                :Origen: {SILVER}Rotterdam{}{BLACK}Fets històrics: {SILVER}Construït en 1908 per Allan de Rotterdam. Una extensió de les sèries 21-126. Revisat en 1931, reequipat amb motors de major potència i pantògrafs en lloc de col·lectors d'arc.
+STR_DESC_RET_152                :Origen: {SILVER}Rotterdam{}{BLACK}Fets històrics: {SILVER}Construït en 1913-1914 (sèries 152-176) i en 1921 (sèries 177-201) per Allan de Rotterdam. Es va revisar el 1931, reequipat amb motors de major potència i pantògrafs en lloc de col·lectors d'arc.
+STR_DESC_RET_231                :Origen: {SILVER}Rotterdam{}{BLACK}Fets històrics: {SILVER}Construït en 1957 per Schindler de Pratteln, Suïssa.
+STR_DESC_RET_351                :Origen: {SILVER}Rotterdam{}{BLACK}Fets històrics: {SILVER}Construït en 1964 per DUEWAG (d'aquí el nom) de Düsseldorf, Alemanya.
+STR_DESC_RET_2001               :Origen: {SILVER}Rotterdam{}{BLACK}Fets històrics: {SILVER}Construït en 2003 per Alstom. En 2011, RET va posar en servei la segona remesa de vehicles: les sèries 2101-2153.
+
+STR_DESC_NBM_50                 :Origen: {SILVER}Utrecht-Zeist{}{BLACK}Fets històrics: {SILVER}L'NBM 50 és un vehicle anteriorment accionat per una màquina de vapor, reformat com a vehicle elèctric.
+STR_DESC_GETA_70                :Origen: {SILVER}Arnhem{}{BLACK}Fets històrics: {SILVER}Construït en 1929 per Beynes de Haarlem. Els serveis de tramvia en Arnhem van acabar en 1944, quan la majoria de la flota (incloent totes les sèries 70-75) van ser destruïdes durant la Batalla d'Arnhem.
+STR_DESC_CONNEXXION_5001:Origen: {SILVER}Utrecht{}{BLACK}Fets històrics: {SILVER}Construït en 1983 per SIG de Neuhausen, Suïssa. Emprat des de 1994 en les línies de Westnederland, des de 1994 fins al 1999 per les de Midnet i per les línies de Connexxion des de 1999. Els vehicles van ser reformats en 2000-2001 i un altre cop en 2011-2012.
+
+STR_DESC_FUTURE_2001    :Descripció: {SILVER}El Flexity Outlook de Bombardier actualment no és emprat per les companyies que operen tramvies dels Països Baixos. Es proporciona com a tramvia futur per afegir varietat durant els últims anys de la partida. Aquest model en particular està basat en l'Eurotram d'Estrasburg.
+STR_DESC_FUTURE_4001    :Descripció: {SILVER}Aquest tramvia imaginari es proporciona com a tramvia futur per afegir varietat durant els últims anys de la partida. El Rendallyne té un sostre panoràmic a ambdós extrems.
+STR_DESC_FUTURE_6001    :Descripció: {SILVER}Aquest tramvia imaginari es proporciona com a tramvia futur per afegir varietat durant els últims anys de la partida. L'SlrTrm no rep l'electricitat de la catenària, sinó que la rep dels panells solars que té al sostre.

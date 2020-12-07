@@ -1,0 +1,122 @@
+//HTM Werkspoor "Fordjes" 21-150, 151-168
+
+/////////////////////////////////////
+//Purchase menu sprite and callback//
+/////////////////////////////////////
+
+spriteset(spriteset_purchase_real_htm_21, "gfx/htm_21.png") {
+	template_purchase(0, 60)
+}
+
+spriteset(spriteset_purchase_cc_htm_21, "gfx/cc_htm_21.png") {
+	template_purchase(0, 60)
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_purchase_sprite_htm_21, param_livery) {
+	1:	spriteset_purchase_cc_htm_21;
+	spriteset_purchase_real_htm_21;
+}
+
+///////////////////
+//Vehicle sprites//
+///////////////////
+
+spriteset(spriteset_real_htm_21_0, "gfx/htm_21.png") {
+	template_tram_16(0, 20)
+}
+
+spriteset(spriteset_cc_htm_21_0, "gfx/cc_htm_21.png") {
+	template_tram_16(0, 20)
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_livery_htm_21, param_livery) {
+	1:	spriteset_cc_htm_21_0;
+    spriteset_real_htm_21_0;
+}
+
+/////////////////////
+//vehicle callbacks//
+/////////////////////
+
+switch (FEAT_ROADVEHS, PARENT, switch_properties_htm_21_purchase_cost, ((date_of_last_service >= date(1929,1,1)))) {
+    1: return 60;
+	return 49;
+}
+
+switch (FEAT_ROADVEHS, PARENT, switch_properties_htm_21_running_cost, ((date_of_last_service >= date(1929,1,1)))) {
+    1: return 36;
+	return 34;
+}
+
+switch (FEAT_ROADVEHS, PARENT, switch_properties_htm_21_power, ((date_of_last_service >= date(1929,1,1)))) {
+    1: return 12; // *10 hp
+	return 5;
+}
+
+//////////////////////
+//vehicle properties//
+//////////////////////
+
+item (FEAT_ROADVEHS, tram_htm_21) {
+	property {
+		name:							string(STR_NAME_HTM_21);
+		introduction_date:				date(1905,1,1);
+		model_life:						55;
+		retire_early:					0;
+		vehicle_life:					25;
+		loading_speed:					10;
+		cost_factor:					49;
+		running_cost_factor:			34;
+		speed:							40 km/h;
+		power: 							54 hp;
+		weight: 						13 ton;
+		cargo_capacity: 				27;
+		tractive_effort_coefficient: 	0.3;
+		air_drag_coefficient: 			0; //0=default
+		//sound_effect: 				; //not yet implemented
+		//visual_effect:					visual_effect(VISUAL_EFFECT_DEFAULT, 0); 
+		
+		reliability_decay:				20;
+		climates_available:				ALL_CLIMATES;
+		refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+		sprite_id:						SPRITE_ID_NEW_ROADVEH;
+		misc_flags:						bitmask(ROADVEH_FLAG_TRAM);
+		refit_cost: 					0;
+		running_cost_base:				RUNNING_COST_ROADVEH;
+	}
+	
+	graphics {
+		purchase: switch_purchase_sprite_htm_21;
+        additional_text: string(STR_DESC_HTM_21);
+        length: return 4;
+        cost_factor: switch_properties_htm_21_purchase_cost;
+        running_cost_factor: switch_properties_htm_21_running_cost;
+        power: switch_properties_htm_21_power;
+		switch_livery_htm_21;
+	}
+}
+
+//only set 2CC flag if cc-parameter activated
+if (param_livery == 1) {
+	item (FEAT_ROADVEHS, tram_htm_21) {
+		property {
+			misc_flags:					bitmask(ROADVEH_FLAG_TRAM, ROADVEH_FLAG_2CC);
+		}
+	}
+}
+
+//cargo refit options
+if (param_refit == 1) {
+	item (FEAT_ROADVEHS, tram_htm_21) {
+		property {
+			refittable_cargo_classes:	bitmask(CC_PASSENGERS, CC_MAIL, CC_EXPRESS);
+		}
+	}
+}
+else if (param_refit == 2) {
+	item (FEAT_ROADVEHS, tram_htm_21) {
+		property {
+			refittable_cargo_classes:	ALL_NORMAL_CARGO_CLASSES;
+		}
+	}
+}

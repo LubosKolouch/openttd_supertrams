@@ -1,0 +1,100 @@
+//GETA 70-75
+
+/////////////////////////////////////
+//Purchase menu sprite and callback//
+/////////////////////////////////////
+
+spriteset(spriteset_purchase_real_geta_70, "gfx/geta_70.png") {
+	template_purchase(0, 60)
+}
+
+spriteset(spriteset_purchase_cc_geta_70, "gfx/cc_geta_70.png") {
+	template_purchase(0, 60)
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_purchase_sprite_geta_70, param_livery) {
+	1:	spriteset_purchase_cc_geta_70;
+    spriteset_purchase_real_geta_70;
+}
+
+///////////////////
+//Vehicle sprites//
+///////////////////
+
+spriteset(spriteset_real_geta_70_0, "gfx/geta_70.png") {
+	template_tram_28(0, 20)
+}
+
+spriteset(spriteset_cc_geta_70_0, "gfx/cc_geta_70.png") {
+	template_tram_28(0, 20)
+}
+
+switch (FEAT_ROADVEHS, SELF, switch_livery_geta_70, param_livery) {
+	1:	spriteset_cc_geta_70_0;
+    spriteset_real_geta_70_0;
+}
+
+//////////////////////
+//vehicle properties//
+//////////////////////
+
+item (FEAT_ROADVEHS, tram_geta_70) {
+	property {
+		name:							string(STR_NAME_GETA_70);
+		introduction_date:				date(1929,1,1);
+		model_life:						15;
+		retire_early:					0;
+		vehicle_life:					15;
+		loading_speed:					10;
+		cost_factor:					66;
+		running_cost_factor:			4;
+		speed:							511 km/h;
+		power: 							97 hp;
+		weight: 						15 ton;
+		cargo_capacity: 				60;
+		tractive_effort_coefficient: 	0.3;
+		air_drag_coefficient: 			0; //0=default
+		//sound_effect: 				; //not yet implemented
+		//visual_effect:					visual_effect(VISUAL_EFFECT_DEFAULT, 0); 
+		
+		reliability_decay:				20;
+		climates_available:				ALL_CLIMATES;
+		refittable_cargo_classes:		ALL_NORMAL_CARGO_CLASSES;
+		sprite_id:						SPRITE_ID_NEW_ROADVEH;
+		misc_flags:						bitmask(ROADVEH_FLAG_TRAM);
+		refit_cost: 					0;
+		running_cost_base:				RUNNING_COST_ROADVEH;
+	}
+	
+	graphics {
+		purchase: switch_purchase_sprite_geta_70;
+        additional_text: string(STR_DESC_GETA_70);
+        length: return 7;
+		switch_livery_geta_70;
+	}
+}
+
+//only set 2CC flag if cc-parameter activated
+if (param_livery == 1) {
+	item (FEAT_ROADVEHS, tram_geta_70) {
+		property {
+			misc_flags:					bitmask(ROADVEH_FLAG_TRAM, ROADVEH_FLAG_2CC);
+		}
+	}
+}
+
+//cargo refit options
+if (param_refit == 1) {
+	item (FEAT_ROADVEHS, tram_geta_70) {
+		property {
+			refittable_cargo_classes:	bitmask(CC_PASSENGERS, CC_MAIL, CC_EXPRESS);
+		}
+	}
+}
+if (param_refit == 2) {
+	item (FEAT_ROADVEHS, tram_geta_70) {
+		property {
+			refittable_cargo_classes:	ALL_NORMAL_CARGO_CLASSES;
+		}
+	}
+}
